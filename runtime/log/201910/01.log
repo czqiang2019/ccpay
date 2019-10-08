@@ -1,0 +1,239 @@
+---------------------------------------------------------------
+[ 2019-10-01T02:02:02+08:00 ] 58.247.212.239 POST api.3ii.cn/
+[运行时间：0.143719s] [吞吐率：6.96req/s] [内存消耗：2,372.88kb] [文件加载：42]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Server',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Go-http-client/1.1',
+  'q-sub-business' => 'contentsecurity',
+  'host' => 'api.3ii.cn',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Server->index[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-01T10:51:11+08:00 ] 59.36.132.240 POST ccpay.3ii.cn/admin/manage/ad
+[运行时间：0.137176s] [吞吐率：7.29req/s] [内存消耗：2,889.94kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manage',
+    2 => 'ad',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Go-http-client/1.1',
+  'q-sub-business' => 'contentsecurity',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ccpay',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /www/wwwroot/epay.3ii.cn//public/404.html [ array (
+) ]
+[ info ] [ RUN ] app\admin\controller\Manage->ad[ /www/wwwroot/epay.3ii.cn/application/admin/controller/Manage.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-01T10:51:11+08:00 ] 58.247.212.239 POST ccpay.3ii.cn/admin/manage/ad
+[运行时间：0.148822s] [吞吐率：6.72req/s] [内存消耗：2,889.94kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manage',
+    2 => 'ad',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Go-http-client/1.1',
+  'q-sub-business' => 'contentsecurity',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ccpay',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /www/wwwroot/epay.3ii.cn//public/404.html [ array (
+) ]
+[ info ] [ RUN ] app\admin\controller\Manage->ad[ /www/wwwroot/epay.3ii.cn/application/admin/controller/Manage.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-01T10:57:14+08:00 ] 182.254.52.17 POST ccpay.3ii.cn/admin/users/index
+[运行时间：0.062634s] [吞吐率：15.97req/s] [内存消耗：2,936.67kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'users',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Go-http-client/1.1',
+  'q-sub-business' => 'contentsecurity',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ccpay',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /www/wwwroot/epay.3ii.cn//public/404.html [ array (
+) ]
+[ info ] [ RUN ] app\admin\controller\Users->index[ /www/wwwroot/epay.3ii.cn/application/admin/controller/Users.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-01T11:18:29+08:00 ] 58.247.212.239 POST ccpay.3ii.cn/captcha?id%3D1569725412
+[运行时间：0.027511s] [吞吐率：36.35req/s] [内存消耗：2,111.94kb] [文件加载：40]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'captcha',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Go-http-client/1.1',
+  'q-sub-business' => 'contentsecurity',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id=1569725412' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-01T11:20:50+08:00 ] 58.247.212.239 POST ccpay.3ii.cn/admin/manage/message
+[运行时间：0.074373s] [吞吐率：13.45req/s] [内存消耗：2,890.94kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manage',
+    2 => 'message',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Go-http-client/1.1',
+  'q-sub-business' => 'contentsecurity',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ccpay',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /www/wwwroot/epay.3ii.cn//public/404.html [ array (
+) ]
+[ info ] [ RUN ] app\admin\controller\Manage->message[ /www/wwwroot/epay.3ii.cn/application/admin/controller/Manage.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-01T17:21:03+08:00 ] 93.158.161.53 GET ccpay.3ii.cn/login
+[运行时间：0.091149s] [吞吐率：10.97req/s] [内存消耗：2,477.55kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'from' => 'support@search.yandex.ru',
+  'user-agent' => 'Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)',
+  'connection' => 'Keep-Alive',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ccpay',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Login->login[ /www/wwwroot/epay.3ii.cn/application/home/controller/Login.php ]
+[ info ] [ VIEW ] ../template/default/login/login.html [ array (
+  0 => 'uid',
+  1 => 'title',
+) ]
+[ info ] [ LOG ] INIT File

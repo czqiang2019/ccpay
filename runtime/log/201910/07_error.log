@@ -1,0 +1,15 @@
+---------------------------------------------------------------
+[ 2019-10-07T07:48:03+08:00 ] 36.110.199.11 GET api.pay.netchu.cn/enQrcode
+[ error ] [0]方法参数错误:url[/www/wwwroot/epay.3ii.cn/thinkphp/library/think/App.php:431]
+---------------------------------------------------------------
+[ 2019-10-07T07:48:04+08:00 ] 36.110.199.12 GET api.pay.netchu.cn/enQrcode
+[ error ] [0]方法参数错误:url[/www/wwwroot/epay.3ii.cn/thinkphp/library/think/App.php:431]
+---------------------------------------------------------------
+[ 2019-10-07T07:48:05+08:00 ] 36.110.199.241 GET api.pay.netchu.cn/enQrcode
+[ error ] [0]方法参数错误:url[/www/wwwroot/epay.3ii.cn/thinkphp/library/think/App.php:431]
+---------------------------------------------------------------
+[ 2019-10-07T19:08:07+08:00 ] 182.254.52.17 POST api.pay.netchu.cn/enQrcode?url%3Dwxp://f2f0WVxRg6OuYLrOpGnpfFil-8MNOnKiKRc-
+[ error ] [0]方法参数错误:url[/www/wwwroot/epay.3ii.cn/thinkphp/library/think/App.php:431]
+---------------------------------------------------------------
+[ 2019-10-07T19:18:41+08:00 ] 59.36.132.240 POST api.pay.netchu.cn/enQrcode?url%3Dwxp://f2f0WVxRg6OuYLrOpGnpfFil-8MNOnKiKRc-
+[ error ] [0]方法参数错误:url[/www/wwwroot/epay.3ii.cn/thinkphp/library/think/App.php:431]

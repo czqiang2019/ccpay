@@ -1,0 +1,96 @@
+---------------------------------------------------------------
+[ 2019-09-11T23:56:09+08:00 ] 120.43.96.15 GET api.3ii.cn/appHeart?t=1568217389608&mid=1000&sign=6312ee2f8392ed8308981ddf624531fc
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000447s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000807s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000951s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000668s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000531s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `order_id` = '201909111709462538' LIMIT 1 [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000736s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1568217369,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000304s ]
+---------------------------------------------------------------
+[ 2019-09-11T23:57:19+08:00 ] 120.43.96.15 GET api.3ii.cn/appHeart?t=1568217460303&mid=1000&sign=f6802875d2a53ad25f2a92d7d0985ace
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000393s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000725s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000902s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000700s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `order_id` = '201909111709462538' LIMIT 1 [ RunTime:0.000347s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000668s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1568217439,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000283s ]
+---------------------------------------------------------------
+[ 2019-09-11T23:57:25+08:00 ] 120.43.96.15 GET api.3ii.cn/appHeart?t=1568217465547&mid=1000&sign=dd280aabd32c77b2b67fa3ea90ef0513
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000384s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000832s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.003436s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000485s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000918s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000867s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000175s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `order_id` = '201909111709462538' LIMIT 1 [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1568217445,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000346s ]
+---------------------------------------------------------------
+[ 2019-09-11T23:58:09+08:00 ] 117.29.228.108 GET api.3ii.cn/appHeart?t=1568217509609&mid=1000&sign=419891ca4fa11462d77a6bce6e4eda24
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000389s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000753s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000764s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000629s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000544s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `order_id` = '201909111709462538' LIMIT 1 [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000247s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1568217489,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000312s ]
+---------------------------------------------------------------
+[ 2019-09-11T23:59:19+08:00 ] 117.29.228.108 GET api.3ii.cn/appHeart?t=1568217580305&mid=1000&sign=19e2dd938f8d7948ef10bc70f47b3ec8
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000388s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000844s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000921s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000615s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000550s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `order_id` = '201909111709462538' LIMIT 1 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1568217559,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000307s ]
+---------------------------------------------------------------
+[ 2019-09-11T23:59:25+08:00 ] 120.43.96.15 GET api.3ii.cn/appHeart?t=1568217585549&mid=1000&sign=ec3a793dcbf15dbc33011e7d4811e704
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000475s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000836s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000245s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000347s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000701s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000175s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `order_id` = '201909111709462538' LIMIT 1 [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1568217564,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000342s ]

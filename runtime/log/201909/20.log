@@ -1,0 +1,3690 @@
+---------------------------------------------------------------
+[ 2019-09-20T22:38:30+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568990347153&mid=1000&sign=33859e2f2eb20b6722452c19e4d8c69b
+[运行时间：0.035025s] [吞吐率：28.55req/s] [内存消耗：2,679.18kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568990347153',
+  'mid' => '1000',
+  'sign' => '33859e2f2eb20b6722452c19e4d8c69b',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T22:38:55+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568990372491&mid=1000&sign=907c21cf640f15627a6d2df32cf2f3d7
+[运行时间：0.032849s] [吞吐率：30.44req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568990372491',
+  'mid' => '1000',
+  'sign' => '907c21cf640f15627a6d2df32cf2f3d7',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T22:39:13+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568990390137&mid=1000&sign=4f2d387a266c4248e028f43a5e13a0a0
+[运行时间：0.031345s] [吞吐率：31.90req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568990390137',
+  'mid' => '1000',
+  'sign' => '4f2d387a266c4248e028f43a5e13a0a0',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T22:40:30+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568990467154&mid=1000&sign=1b672ca54be32a0d5c57a8c3fc1f795c
+[运行时间：0.032624s] [吞吐率：30.65req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568990467154',
+  'mid' => '1000',
+  'sign' => '1b672ca54be32a0d5c57a8c3fc1f795c',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T22:40:55+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568990492493&mid=1000&sign=cdf63f2431811d0c45f11624cf548f64
+[运行时间：0.031433s] [吞吐率：31.81req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568990492493',
+  'mid' => '1000',
+  'sign' => 'cdf63f2431811d0c45f11624cf548f64',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T22:41:13+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568990510139&mid=1000&sign=79df954848b418aeb4268c1cf7440429
+[运行时间：0.031313s] [吞吐率：31.94req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568990510139',
+  'mid' => '1000',
+  'sign' => '79df954848b418aeb4268c1cf7440429',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T22:42:30+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568990587156&mid=1000&sign=d29a791848c60e2c55d449b9060305d5
+[运行时间：0.033453s] [吞吐率：29.89req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568990587156',
+  'mid' => '1000',
+  'sign' => 'd29a791848c60e2c55d449b9060305d5',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T22:42:55+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568990612494&mid=1000&sign=ccdee9b757e4f5027766c197019a3c0e
+[运行时间：0.032184s] [吞吐率：31.07req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568990612494',
+  'mid' => '1000',
+  'sign' => 'ccdee9b757e4f5027766c197019a3c0e',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T22:43:13+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568990630141&mid=1000&sign=d45feb48e72367f1d4cd9b9606730918
+[运行时间：0.033989s] [吞吐率：29.42req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568990630141',
+  'mid' => '1000',
+  'sign' => 'd45feb48e72367f1d4cd9b9606730918',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T22:44:30+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568990707157&mid=1000&sign=d2e61bb14d7e0e9824230ba8d0558c32
+[运行时间：0.034171s] [吞吐率：29.26req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568990707157',
+  'mid' => '1000',
+  'sign' => 'd2e61bb14d7e0e9824230ba8d0558c32',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T22:44:55+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568990732495&mid=1000&sign=efddbd9a4e2211e05db7cac21405b2cc
+[运行时间：0.031817s] [吞吐率：31.43req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568990732495',
+  'mid' => '1000',
+  'sign' => 'efddbd9a4e2211e05db7cac21405b2cc',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T22:45:13+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568990750143&mid=1000&sign=a058f1fbbcdd97b40a8729e83e988d74
+[运行时间：0.033600s] [吞吐率：29.76req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568990750143',
+  'mid' => '1000',
+  'sign' => 'a058f1fbbcdd97b40a8729e83e988d74',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T22:46:30+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568990827159&mid=1000&sign=779313868f15333def9f9933fd73879b
+[运行时间：0.033376s] [吞吐率：29.96req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568990827159',
+  'mid' => '1000',
+  'sign' => '779313868f15333def9f9933fd73879b',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T22:46:55+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568990852497&mid=1000&sign=a76666dbb7f74051cacf39320faf3a53
+[运行时间：0.031675s] [吞吐率：31.57req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568990852497',
+  'mid' => '1000',
+  'sign' => 'a76666dbb7f74051cacf39320faf3a53',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T22:47:13+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568990870143&mid=1000&sign=b67454382e846772ab07067aa6a6a487
+[运行时间：0.032626s] [吞吐率：30.65req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568990870143',
+  'mid' => '1000',
+  'sign' => 'b67454382e846772ab07067aa6a6a487',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T22:48:30+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568990947160&mid=1000&sign=03c3215b39f697dfd793002ffc72d4fe
+[运行时间：0.040783s] [吞吐率：24.52req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568990947160',
+  'mid' => '1000',
+  'sign' => '03c3215b39f697dfd793002ffc72d4fe',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T22:48:55+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568990972499&mid=1000&sign=82c3a9dd44c5994c3a8fd1fe19ea750d
+[运行时间：0.032559s] [吞吐率：30.71req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568990972499',
+  'mid' => '1000',
+  'sign' => '82c3a9dd44c5994c3a8fd1fe19ea750d',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T22:49:13+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568990990145&mid=1000&sign=3ba8f8929739440eba08f23f8f1a5ad6
+[运行时间：0.031604s] [吞吐率：31.64req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568990990145',
+  'mid' => '1000',
+  'sign' => '3ba8f8929739440eba08f23f8f1a5ad6',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T22:50:30+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568991067161&mid=1000&sign=f179165fd926b45111f1e1a38a649069
+[运行时间：0.034010s] [吞吐率：29.40req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568991067161',
+  'mid' => '1000',
+  'sign' => 'f179165fd926b45111f1e1a38a649069',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T22:50:55+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568991092501&mid=1000&sign=5754e5367adc289eec48af1f98cb9ff1
+[运行时间：0.036746s] [吞吐率：27.21req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568991092501',
+  'mid' => '1000',
+  'sign' => '5754e5367adc289eec48af1f98cb9ff1',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T22:51:13+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568991110146&mid=1000&sign=ede4bc48f2b9307572a92c59b3359ed7
+[运行时间：0.032072s] [吞吐率：31.18req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568991110146',
+  'mid' => '1000',
+  'sign' => 'ede4bc48f2b9307572a92c59b3359ed7',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T22:52:30+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568991187163&mid=1000&sign=22c690ac381ef60c0d7802b05d9ae8ad
+[运行时间：0.032049s] [吞吐率：31.20req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568991187163',
+  'mid' => '1000',
+  'sign' => '22c690ac381ef60c0d7802b05d9ae8ad',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T22:52:55+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568991212503&mid=1000&sign=1ede3f31c38e7254e13333521e79bb4a
+[运行时间：0.032452s] [吞吐率：30.81req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568991212503',
+  'mid' => '1000',
+  'sign' => '1ede3f31c38e7254e13333521e79bb4a',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T22:53:13+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568991230148&mid=1000&sign=e3b5cccdf7cec3df158e4ff3bce49b1c
+[运行时间：0.033174s] [吞吐率：30.14req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568991230148',
+  'mid' => '1000',
+  'sign' => 'e3b5cccdf7cec3df158e4ff3bce49b1c',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T22:54:30+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568991307164&mid=1000&sign=aab7f90c8c9b69f404055ff46ac0d951
+[运行时间：0.035254s] [吞吐率：28.37req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568991307164',
+  'mid' => '1000',
+  'sign' => 'aab7f90c8c9b69f404055ff46ac0d951',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T22:54:55+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568991332504&mid=1000&sign=1049b5fe41b1ea6c18e3235aabbac834
+[运行时间：0.032430s] [吞吐率：30.84req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568991332504',
+  'mid' => '1000',
+  'sign' => '1049b5fe41b1ea6c18e3235aabbac834',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T22:55:13+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568991350149&mid=1000&sign=2f9956384a77e397948fc5929a4928c0
+[运行时间：0.031308s] [吞吐率：31.94req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568991350149',
+  'mid' => '1000',
+  'sign' => '2f9956384a77e397948fc5929a4928c0',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T22:56:30+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568991427165&mid=1000&sign=9940cdde54d7ed141f1ca6441799d58b
+[运行时间：0.032026s] [吞吐率：31.22req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568991427165',
+  'mid' => '1000',
+  'sign' => '9940cdde54d7ed141f1ca6441799d58b',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T22:56:55+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568991452505&mid=1000&sign=813bf363d9c04d37d4c59c733fbbdc10
+[运行时间：0.033065s] [吞吐率：30.24req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568991452505',
+  'mid' => '1000',
+  'sign' => '813bf363d9c04d37d4c59c733fbbdc10',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T22:57:13+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568991470150&mid=1000&sign=c8bd39dd9abc49c4d796c2140bd74654
+[运行时间：0.031601s] [吞吐率：31.64req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568991470150',
+  'mid' => '1000',
+  'sign' => 'c8bd39dd9abc49c4d796c2140bd74654',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T22:58:30+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568991547166&mid=1000&sign=b2e266d00290d2cdb73ed524496b6776
+[运行时间：0.035832s] [吞吐率：27.91req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568991547166',
+  'mid' => '1000',
+  'sign' => 'b2e266d00290d2cdb73ed524496b6776',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T22:58:55+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568991572506&mid=1000&sign=cffff5660337d0d76d0c825968959952
+[运行时间：0.032277s] [吞吐率：30.98req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568991572506',
+  'mid' => '1000',
+  'sign' => 'cffff5660337d0d76d0c825968959952',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T22:59:13+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568991590151&mid=1000&sign=65a810049b25895861a696fb25f1b7c4
+[运行时间：0.031342s] [吞吐率：31.91req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568991590151',
+  'mid' => '1000',
+  'sign' => '65a810049b25895861a696fb25f1b7c4',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:00:30+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568991667167&mid=1000&sign=672ff1d826a23f4fb74a9cf3b994931b
+[运行时间：0.031582s] [吞吐率：31.66req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568991667167',
+  'mid' => '1000',
+  'sign' => '672ff1d826a23f4fb74a9cf3b994931b',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:00:55+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568991692508&mid=1000&sign=02dc9bfb7289933ae3cd3376c1d5bf4b
+[运行时间：0.031068s] [吞吐率：32.19req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568991692508',
+  'mid' => '1000',
+  'sign' => '02dc9bfb7289933ae3cd3376c1d5bf4b',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:01:13+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568991710153&mid=1000&sign=b4831a1d3734d9fb838a11c0e31dfda0
+[运行时间：0.039345s] [吞吐率：25.42req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568991710153',
+  'mid' => '1000',
+  'sign' => 'b4831a1d3734d9fb838a11c0e31dfda0',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:02:30+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568991787169&mid=1000&sign=9682af433ede983608f7ef306e9b5016
+[运行时间：0.034569s] [吞吐率：28.93req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568991787169',
+  'mid' => '1000',
+  'sign' => '9682af433ede983608f7ef306e9b5016',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:02:55+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568991812509&mid=1000&sign=3d3e629d794fae834e3ae772c63c3543
+[运行时间：0.034975s] [吞吐率：28.59req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568991812509',
+  'mid' => '1000',
+  'sign' => '3d3e629d794fae834e3ae772c63c3543',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:03:13+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568991830155&mid=1000&sign=bab3ecb633577e9e2a804c43c9a2c895
+[运行时间：0.037060s] [吞吐率：26.98req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568991830155',
+  'mid' => '1000',
+  'sign' => 'bab3ecb633577e9e2a804c43c9a2c895',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:04:30+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568991907171&mid=1000&sign=0b7dec6d39b5a7f80463d70530a8f626
+[运行时间：0.032140s] [吞吐率：31.11req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568991907171',
+  'mid' => '1000',
+  'sign' => '0b7dec6d39b5a7f80463d70530a8f626',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:04:55+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568991932511&mid=1000&sign=651c83dd3fc3af0703601b4c7886d925
+[运行时间：0.032564s] [吞吐率：30.71req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568991932511',
+  'mid' => '1000',
+  'sign' => '651c83dd3fc3af0703601b4c7886d925',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:05:13+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568991950155&mid=1000&sign=36714cb4a1265c85306fa82c49b22a8a
+[运行时间：0.033984s] [吞吐率：29.43req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568991950155',
+  'mid' => '1000',
+  'sign' => '36714cb4a1265c85306fa82c49b22a8a',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:06:30+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568992027172&mid=1000&sign=427103ca1833ae312a3c527d363a0637
+[运行时间：0.032333s] [吞吐率：30.93req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568992027172',
+  'mid' => '1000',
+  'sign' => '427103ca1833ae312a3c527d363a0637',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:06:55+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568992052512&mid=1000&sign=6e7cec5dd92ce995b1a30b8ed116541b
+[运行时间：0.033476s] [吞吐率：29.87req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568992052512',
+  'mid' => '1000',
+  'sign' => '6e7cec5dd92ce995b1a30b8ed116541b',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:07:13+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568992070156&mid=1000&sign=03fca3a8d345e6feb19741ead04ee2f0
+[运行时间：0.031518s] [吞吐率：31.73req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568992070156',
+  'mid' => '1000',
+  'sign' => '03fca3a8d345e6feb19741ead04ee2f0',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:08:30+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568992147174&mid=1000&sign=6c682b8e041d6f23cbc8c0c4b8d11200
+[运行时间：0.036616s] [吞吐率：27.31req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568992147174',
+  'mid' => '1000',
+  'sign' => '6c682b8e041d6f23cbc8c0c4b8d11200',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:08:55+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568992172514&mid=1000&sign=0c16e74ef4ccb2c33d67a4edcbb0f624
+[运行时间：0.033994s] [吞吐率：29.42req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568992172514',
+  'mid' => '1000',
+  'sign' => '0c16e74ef4ccb2c33d67a4edcbb0f624',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:09:13+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568992190158&mid=1000&sign=070ad08e8d9ba14dc4fd99622bad4a82
+[运行时间：0.031700s] [吞吐率：31.55req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568992190158',
+  'mid' => '1000',
+  'sign' => '070ad08e8d9ba14dc4fd99622bad4a82',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:10:30+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568992267175&mid=1000&sign=de380300386fccda544d0db940e09239
+[运行时间：0.033800s] [吞吐率：29.59req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568992267175',
+  'mid' => '1000',
+  'sign' => 'de380300386fccda544d0db940e09239',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:10:55+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568992292516&mid=1000&sign=ff6f50cc7640344448ab401447428721
+[运行时间：0.031808s] [吞吐率：31.44req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568992292516',
+  'mid' => '1000',
+  'sign' => 'ff6f50cc7640344448ab401447428721',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:11:13+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568992310160&mid=1000&sign=cdc141dd06a9b9566a890afedcb4c15e
+[运行时间：0.031974s] [吞吐率：31.28req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568992310160',
+  'mid' => '1000',
+  'sign' => 'cdc141dd06a9b9566a890afedcb4c15e',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:12:30+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568992387177&mid=1000&sign=7b1d777685746a7cc68317e2b1d622c4
+[运行时间：0.034218s] [吞吐率：29.22req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568992387177',
+  'mid' => '1000',
+  'sign' => '7b1d777685746a7cc68317e2b1d622c4',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:12:55+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568992412517&mid=1000&sign=ccdec31ab78326d7d05d44587d9b38c9
+[运行时间：0.032717s] [吞吐率：30.57req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568992412517',
+  'mid' => '1000',
+  'sign' => 'ccdec31ab78326d7d05d44587d9b38c9',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:13:13+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568992430162&mid=1000&sign=0a5e95ccb295904295201c25cdecbc0f
+[运行时间：0.032099s] [吞吐率：31.15req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568992430162',
+  'mid' => '1000',
+  'sign' => '0a5e95ccb295904295201c25cdecbc0f',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:14:30+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568992507177&mid=1000&sign=3aa01fc2b788c9d7aebb0be074a1019b
+[运行时间：0.033116s] [吞吐率：30.20req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568992507177',
+  'mid' => '1000',
+  'sign' => '3aa01fc2b788c9d7aebb0be074a1019b',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:14:55+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568992532519&mid=1000&sign=f386f343c3ff572f21a69b78d6b6daf4
+[运行时间：0.031567s] [吞吐率：31.68req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568992532519',
+  'mid' => '1000',
+  'sign' => 'f386f343c3ff572f21a69b78d6b6daf4',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:15:13+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568992550164&mid=1000&sign=bb899791e946f5e8f05696864591a5f4
+[运行时间：0.032484s] [吞吐率：30.78req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568992550164',
+  'mid' => '1000',
+  'sign' => 'bb899791e946f5e8f05696864591a5f4',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:16:30+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568992627179&mid=1000&sign=35c6eab763e1a71ecd3503f45637d0de
+[运行时间：0.034418s] [吞吐率：29.05req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568992627179',
+  'mid' => '1000',
+  'sign' => '35c6eab763e1a71ecd3503f45637d0de',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:16:55+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568992652520&mid=1000&sign=0ddc31f1c20e5121d2628de2fd9f28df
+[运行时间：0.031731s] [吞吐率：31.51req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568992652520',
+  'mid' => '1000',
+  'sign' => '0ddc31f1c20e5121d2628de2fd9f28df',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:17:13+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568992670166&mid=1000&sign=77080c6708e2a22f21c0becdfdb66985
+[运行时间：0.032173s] [吞吐率：31.08req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568992670166',
+  'mid' => '1000',
+  'sign' => '77080c6708e2a22f21c0becdfdb66985',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:18:30+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568992747180&mid=1000&sign=e790f5c1d8bc1fc49f95eabac14180c8
+[运行时间：0.032692s] [吞吐率：30.59req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568992747180',
+  'mid' => '1000',
+  'sign' => 'e790f5c1d8bc1fc49f95eabac14180c8',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:18:55+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568992772521&mid=1000&sign=503d31b6fb7d483ceb299a8f3ef700a8
+[运行时间：0.032370s] [吞吐率：30.89req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568992772521',
+  'mid' => '1000',
+  'sign' => '503d31b6fb7d483ceb299a8f3ef700a8',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:19:13+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568992790167&mid=1000&sign=2271fe382198dd96c719546cd8442e1a
+[运行时间：0.032195s] [吞吐率：31.06req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568992790167',
+  'mid' => '1000',
+  'sign' => '2271fe382198dd96c719546cd8442e1a',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:20:30+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568992867181&mid=1000&sign=c48af3a3add70a49f8d031636528affd
+[运行时间：0.031478s] [吞吐率：31.77req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568992867181',
+  'mid' => '1000',
+  'sign' => 'c48af3a3add70a49f8d031636528affd',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:20:55+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568992892522&mid=1000&sign=7263bf1514e8aa84759e48640ce05dc1
+[运行时间：0.032857s] [吞吐率：30.43req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568992892522',
+  'mid' => '1000',
+  'sign' => '7263bf1514e8aa84759e48640ce05dc1',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:21:13+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568992910169&mid=1000&sign=7f2022780a9a95e4d405351ed7890953
+[运行时间：0.031773s] [吞吐率：31.47req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568992910169',
+  'mid' => '1000',
+  'sign' => '7f2022780a9a95e4d405351ed7890953',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:22:30+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568992987183&mid=1000&sign=146b73d8544ebdb11fec1cc734443951
+[运行时间：0.034853s] [吞吐率：28.69req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568992987183',
+  'mid' => '1000',
+  'sign' => '146b73d8544ebdb11fec1cc734443951',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:22:55+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568993012524&mid=1000&sign=72035f9bb613a864abf74cf8db95c724
+[运行时间：0.032211s] [吞吐率：31.05req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568993012524',
+  'mid' => '1000',
+  'sign' => '72035f9bb613a864abf74cf8db95c724',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:23:13+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568993030171&mid=1000&sign=f115f3491d4bb6c0f313b110c087182a
+[运行时间：0.034943s] [吞吐率：28.62req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568993030171',
+  'mid' => '1000',
+  'sign' => 'f115f3491d4bb6c0f313b110c087182a',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:24:30+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568993107185&mid=1000&sign=5f646c7d19a8d04e835fbb96e6d4fda2
+[运行时间：0.032313s] [吞吐率：30.95req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568993107185',
+  'mid' => '1000',
+  'sign' => '5f646c7d19a8d04e835fbb96e6d4fda2',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:24:55+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568993132525&mid=1000&sign=28462f317196c94950bbefcdc72a7cde
+[运行时间：0.032465s] [吞吐率：30.80req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568993132525',
+  'mid' => '1000',
+  'sign' => '28462f317196c94950bbefcdc72a7cde',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:25:13+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568993150173&mid=1000&sign=3a0a9f94abd9737c04011d59c884b85a
+[运行时间：0.034035s] [吞吐率：29.38req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568993150173',
+  'mid' => '1000',
+  'sign' => '3a0a9f94abd9737c04011d59c884b85a',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:26:30+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568993227187&mid=1000&sign=37d21abd4968b84c391bfb787e17c6b0
+[运行时间：0.032932s] [吞吐率：30.37req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568993227187',
+  'mid' => '1000',
+  'sign' => '37d21abd4968b84c391bfb787e17c6b0',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:26:55+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568993252527&mid=1000&sign=bef8ec1ba57210de2ca34f7c9058527a
+[运行时间：0.032781s] [吞吐率：30.51req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568993252527',
+  'mid' => '1000',
+  'sign' => 'bef8ec1ba57210de2ca34f7c9058527a',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:27:13+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568993270174&mid=1000&sign=0e4e2cb2f6617c6db98d3145c6c2341a
+[运行时间：0.033948s] [吞吐率：29.46req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568993270174',
+  'mid' => '1000',
+  'sign' => '0e4e2cb2f6617c6db98d3145c6c2341a',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:28:30+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568993347188&mid=1000&sign=deda6856dd5290cd7245836f7fd55324
+[运行时间：0.033392s] [吞吐率：29.95req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568993347188',
+  'mid' => '1000',
+  'sign' => 'deda6856dd5290cd7245836f7fd55324',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:28:55+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568993372528&mid=1000&sign=6a747296b131d3497c23eae65d078617
+[运行时间：0.033182s] [吞吐率：30.14req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568993372528',
+  'mid' => '1000',
+  'sign' => '6a747296b131d3497c23eae65d078617',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:29:13+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568993390175&mid=1000&sign=899fe3257da4a8206a049e1598ce3acc
+[运行时间：0.032806s] [吞吐率：30.48req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568993390175',
+  'mid' => '1000',
+  'sign' => '899fe3257da4a8206a049e1598ce3acc',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:30:30+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568993467190&mid=1000&sign=7d2528f4a70363bd0e289cbea04dddd2
+[运行时间：0.038187s] [吞吐率：26.19req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568993467190',
+  'mid' => '1000',
+  'sign' => '7d2528f4a70363bd0e289cbea04dddd2',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:30:55+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568993492530&mid=1000&sign=fc0a6275d9cb84763ec58e9d1d7db06f
+[运行时间：0.031534s] [吞吐率：31.71req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568993492530',
+  'mid' => '1000',
+  'sign' => 'fc0a6275d9cb84763ec58e9d1d7db06f',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:31:13+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568993510177&mid=1000&sign=f4b60a0776f4c2da00086f49a4ae445c
+[运行时间：0.037574s] [吞吐率：26.61req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568993510177',
+  'mid' => '1000',
+  'sign' => 'f4b60a0776f4c2da00086f49a4ae445c',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:32:30+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568993587190&mid=1000&sign=32ecfabb1a21a381fe4c684dfaa2da63
+[运行时间：0.032143s] [吞吐率：31.11req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568993587190',
+  'mid' => '1000',
+  'sign' => '32ecfabb1a21a381fe4c684dfaa2da63',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:32:55+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568993612531&mid=1000&sign=0e319c262e6f896ccf2657a71fad9b4f
+[运行时间：0.032894s] [吞吐率：30.40req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568993612531',
+  'mid' => '1000',
+  'sign' => '0e319c262e6f896ccf2657a71fad9b4f',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:33:13+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568993630180&mid=1000&sign=ee35fecdda4b65f9d3a88fc3b7515429
+[运行时间：0.031776s] [吞吐率：31.47req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568993630180',
+  'mid' => '1000',
+  'sign' => 'ee35fecdda4b65f9d3a88fc3b7515429',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:34:30+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568993707192&mid=1000&sign=a33297c6850e9acd54ed01ba2ddd9709
+[运行时间：0.038593s] [吞吐率：25.91req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568993707192',
+  'mid' => '1000',
+  'sign' => 'a33297c6850e9acd54ed01ba2ddd9709',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:34:55+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568993732533&mid=1000&sign=6e992fc1c5ef503699b0ac611e4c2a72
+[运行时间：0.031390s] [吞吐率：31.86req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568993732533',
+  'mid' => '1000',
+  'sign' => '6e992fc1c5ef503699b0ac611e4c2a72',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:35:13+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568993750181&mid=1000&sign=5df38abfc0bb57a34f4ab68d4bd5ccec
+[运行时间：0.034538s] [吞吐率：28.95req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568993750181',
+  'mid' => '1000',
+  'sign' => '5df38abfc0bb57a34f4ab68d4bd5ccec',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:36:30+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568993827194&mid=1000&sign=373314492f3fcce935cf7ff898ff7021
+[运行时间：0.038287s] [吞吐率：26.12req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568993827194',
+  'mid' => '1000',
+  'sign' => '373314492f3fcce935cf7ff898ff7021',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:36:55+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568993852534&mid=1000&sign=74f5e58b37c78ed48c028a6e31ca2bd3
+[运行时间：0.031192s] [吞吐率：32.06req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568993852534',
+  'mid' => '1000',
+  'sign' => '74f5e58b37c78ed48c028a6e31ca2bd3',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:37:13+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568993870182&mid=1000&sign=8ce86f7e354c5c3c44a379e609ceb1e2
+[运行时间：0.031625s] [吞吐率：31.62req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568993870182',
+  'mid' => '1000',
+  'sign' => '8ce86f7e354c5c3c44a379e609ceb1e2',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:38:30+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568993947195&mid=1000&sign=017247ba96b7b6df7ba4cd1d0f6fff5e
+[运行时间：0.032744s] [吞吐率：30.54req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568993947195',
+  'mid' => '1000',
+  'sign' => '017247ba96b7b6df7ba4cd1d0f6fff5e',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:38:55+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568993972535&mid=1000&sign=2eafc975032ae8318aefece7cac9cc05
+[运行时间：0.032955s] [吞吐率：30.34req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568993972535',
+  'mid' => '1000',
+  'sign' => '2eafc975032ae8318aefece7cac9cc05',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:39:13+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568993990184&mid=1000&sign=9c499478700ad7008dcdfe51ad2d6204
+[运行时间：0.032224s] [吞吐率：31.03req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568993990184',
+  'mid' => '1000',
+  'sign' => '9c499478700ad7008dcdfe51ad2d6204',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:40:30+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568994067197&mid=1000&sign=818aeecbb706914635e527231bf9644a
+[运行时间：0.033099s] [吞吐率：30.21req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568994067197',
+  'mid' => '1000',
+  'sign' => '818aeecbb706914635e527231bf9644a',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:40:55+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568994092537&mid=1000&sign=9305aaceffc632c8b0bb5a12df67e07d
+[运行时间：0.032049s] [吞吐率：31.20req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568994092537',
+  'mid' => '1000',
+  'sign' => '9305aaceffc632c8b0bb5a12df67e07d',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:41:13+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568994110185&mid=1000&sign=af01c3d950e0f9d6a59b572fc0675cf8
+[运行时间：0.033814s] [吞吐率：29.57req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568994110185',
+  'mid' => '1000',
+  'sign' => 'af01c3d950e0f9d6a59b572fc0675cf8',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:42:30+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568994187199&mid=1000&sign=76bdcefd1f7156b5422bd062b8dd32ee
+[运行时间：0.034167s] [吞吐率：29.27req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568994187199',
+  'mid' => '1000',
+  'sign' => '76bdcefd1f7156b5422bd062b8dd32ee',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:42:55+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568994212539&mid=1000&sign=fa5f9ac1fe8f406d7cb7c093ebda4efe
+[运行时间：0.031138s] [吞吐率：32.12req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568994212539',
+  'mid' => '1000',
+  'sign' => 'fa5f9ac1fe8f406d7cb7c093ebda4efe',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:43:13+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568994230187&mid=1000&sign=3b7a946711f756c1e6d7f0dd589aadb9
+[运行时间：0.033031s] [吞吐率：30.27req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568994230187',
+  'mid' => '1000',
+  'sign' => '3b7a946711f756c1e6d7f0dd589aadb9',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:44:30+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568994307200&mid=1000&sign=e0c1d4fc1c6b828e2e60fbfd936f1661
+[运行时间：0.032417s] [吞吐率：30.85req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568994307200',
+  'mid' => '1000',
+  'sign' => 'e0c1d4fc1c6b828e2e60fbfd936f1661',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:44:55+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568994332541&mid=1000&sign=b7a06c4ecf618bcdf07b7f28b0367477
+[运行时间：0.032880s] [吞吐率：30.41req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568994332541',
+  'mid' => '1000',
+  'sign' => 'b7a06c4ecf618bcdf07b7f28b0367477',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:45:13+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568994350188&mid=1000&sign=050ac9f60186a1d6e3794fd2ddd8d3ab
+[运行时间：0.032304s] [吞吐率：30.96req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568994350188',
+  'mid' => '1000',
+  'sign' => '050ac9f60186a1d6e3794fd2ddd8d3ab',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:46:30+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568994427201&mid=1000&sign=5434c1e990c9a06f066fb5b5034dbb2c
+[运行时间：0.031889s] [吞吐率：31.36req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568994427201',
+  'mid' => '1000',
+  'sign' => '5434c1e990c9a06f066fb5b5034dbb2c',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:46:55+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568994452542&mid=1000&sign=bda9b6c3f06e6a0f99d2af298a3f87a1
+[运行时间：0.034297s] [吞吐率：29.16req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568994452542',
+  'mid' => '1000',
+  'sign' => 'bda9b6c3f06e6a0f99d2af298a3f87a1',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:47:13+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568994470190&mid=1000&sign=f5cf5542078f83fa45a7ea6a0cc25399
+[运行时间：0.032754s] [吞吐率：30.53req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568994470190',
+  'mid' => '1000',
+  'sign' => 'f5cf5542078f83fa45a7ea6a0cc25399',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:48:30+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568994547202&mid=1000&sign=1c7e17bcf6be8bf4f6cbcc99e00beeba
+[运行时间：0.033525s] [吞吐率：29.83req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568994547202',
+  'mid' => '1000',
+  'sign' => '1c7e17bcf6be8bf4f6cbcc99e00beeba',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:48:55+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568994572543&mid=1000&sign=3e43dadc87e10428a6312f0ce943bf5d
+[运行时间：0.031775s] [吞吐率：31.47req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568994572543',
+  'mid' => '1000',
+  'sign' => '3e43dadc87e10428a6312f0ce943bf5d',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:49:13+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568994590191&mid=1000&sign=20796d407ba39b34f6354566102c094b
+[运行时间：0.036093s] [吞吐率：27.71req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568994590191',
+  'mid' => '1000',
+  'sign' => '20796d407ba39b34f6354566102c094b',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:50:30+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568994667204&mid=1000&sign=808c5550d0a3e3f49a3814a194a65be9
+[运行时间：0.032651s] [吞吐率：30.63req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568994667204',
+  'mid' => '1000',
+  'sign' => '808c5550d0a3e3f49a3814a194a65be9',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:50:55+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568994692544&mid=1000&sign=30c27b1e692db5175843e1ae9df854ab
+[运行时间：0.035170s] [吞吐率：28.43req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568994692544',
+  'mid' => '1000',
+  'sign' => '30c27b1e692db5175843e1ae9df854ab',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:51:13+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568994710192&mid=1000&sign=2f3d40d7c17959fd622ae0c70a53cbd7
+[运行时间：0.031221s] [吞吐率：32.03req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568994710192',
+  'mid' => '1000',
+  'sign' => '2f3d40d7c17959fd622ae0c70a53cbd7',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:52:30+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568994787205&mid=1000&sign=409285097b2d4681468c0797659684f7
+[运行时间：0.032551s] [吞吐率：30.72req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568994787205',
+  'mid' => '1000',
+  'sign' => '409285097b2d4681468c0797659684f7',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:52:55+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568994812546&mid=1000&sign=effd2c7b248aa5f78f54785549e392dc
+[运行时间：0.036830s] [吞吐率：27.15req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568994812546',
+  'mid' => '1000',
+  'sign' => 'effd2c7b248aa5f78f54785549e392dc',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:53:13+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568994830194&mid=1000&sign=7a894ce648cf36d4042d5bacf45e8555
+[运行时间：0.031250s] [吞吐率：32.00req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568994830194',
+  'mid' => '1000',
+  'sign' => '7a894ce648cf36d4042d5bacf45e8555',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:54:30+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568994907207&mid=1000&sign=01a6c9ef5eb67106e2ce6f9f5ad6e01d
+[运行时间：0.035022s] [吞吐率：28.55req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568994907207',
+  'mid' => '1000',
+  'sign' => '01a6c9ef5eb67106e2ce6f9f5ad6e01d',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:54:55+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568994932547&mid=1000&sign=e281645d63f138481c9c1c3cdbd1d90b
+[运行时间：0.035318s] [吞吐率：28.31req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568994932547',
+  'mid' => '1000',
+  'sign' => 'e281645d63f138481c9c1c3cdbd1d90b',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:55:13+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568994950195&mid=1000&sign=02b3deb64ca5eac4926268f10353b956
+[运行时间：0.038109s] [吞吐率：26.24req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568994950195',
+  'mid' => '1000',
+  'sign' => '02b3deb64ca5eac4926268f10353b956',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:56:30+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568995027209&mid=1000&sign=d76f7dd9355e2453d791e00025c87df1
+[运行时间：0.035941s] [吞吐率：27.82req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568995027209',
+  'mid' => '1000',
+  'sign' => 'd76f7dd9355e2453d791e00025c87df1',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:56:55+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568995052548&mid=1000&sign=3a06ae1e1f17c54de0ac55c9483f94fa
+[运行时间：0.032455s] [吞吐率：30.81req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568995052548',
+  'mid' => '1000',
+  'sign' => '3a06ae1e1f17c54de0ac55c9483f94fa',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:57:13+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568995070197&mid=1000&sign=9e112418ace79f876749d2f8f96cd950
+[运行时间：0.033144s] [吞吐率：30.17req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568995070197',
+  'mid' => '1000',
+  'sign' => '9e112418ace79f876749d2f8f96cd950',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:58:30+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568995147210&mid=1000&sign=80721630cdc94b7074091b2084c0b147
+[运行时间：0.033320s] [吞吐率：30.01req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568995147210',
+  'mid' => '1000',
+  'sign' => '80721630cdc94b7074091b2084c0b147',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:58:55+08:00 ] 117.31.103.68 GET api.3ii.cn/appHeart?t=1568995172550&mid=1000&sign=aac68171e12d6f6756b36642172626d9
+[运行时间：0.035664s] [吞吐率：28.04req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568995172550',
+  'mid' => '1000',
+  'sign' => 'aac68171e12d6f6756b36642172626d9',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T23:59:13+08:00 ] 117.27.0.79 GET api.3ii.cn/appHeart?t=1568995190198&mid=1000&sign=a1f074668d4f8f68ce3a798f3076ba44
+[运行时间：0.038329s] [吞吐率：26.09req/s] [内存消耗：2,679.23kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.7.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1568995190198',
+  'mid' => '1000',
+  'sign' => 'a1f074668d4f8f68ce3a798f3076ba44',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File

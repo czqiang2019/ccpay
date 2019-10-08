@@ -1,0 +1,166 @@
+﻿{include file="common/blank" /}
+<![endif]-->
+<!--/meta 作为公共模版分离出去-->
+
+<title>新建网站角色 - 管理员管理 - H-ui.admin v3.1</title>
+<meta name="keywords" content="H-ui.admin v3.1,H-ui网站后台模版,后台模版下载,后台管理系统模版,HTML后台模版下载">
+<meta name="description" content="H-ui.admin v3.1，是一款由国人开发的轻量级扁平化网站后台模板，完全免费开源的网站后台管理系统模版，适合中小型CMS后台系统。">
+</head>
+<body>
+<article class="page-container">
+	<form action="" method="post" class="form form-horizontal" id="form-admin-role-add">
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>角色名称：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="" id="roleName" name="roleName">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3">备注：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="" id="desc" name="desc">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3">网站角色：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				{volist name="admins" id="admin"}
+				<dl class="permission-list">
+					<dt>
+						<label>
+							<input type="checkbox" value="{$admin.id}" name="menuid" id="user-Character-0">
+							{$admin.name}</label>
+					</dt>
+					<dd>
+						{if condition="!empty($admin['cmenu']) eq true"}
+						{volist name="admin.cmenu" id="vv"}
+						<dl class="cl permission-list2">
+							<dt>
+								<label class="">
+									<input type="checkbox" value="{$vv.id}" name="menuid" id="user-Character-0-0">
+									{$vv.name}</label>
+							</dt>
+							{if condition="!empty($vv['per']) eq true"}
+							<dd>
+								{volist name="vv.per" id="vvv"}
+								<label class="">
+									<input type="checkbox" value="{$vvv.id}" name="menuid" id="user-Character-0-0-0">
+									{$vvv.name}</label>
+								{/volist}
+							</dd>
+							{/if}
+						</dl>
+						{/volist}
+						{/if}
+					</dd>
+				</dl>
+				{/volist}
+			</div>
+		</div>
+		<div class="row cl">
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+				<button type="submit" class="btn btn-success radius" id="admin-role-save" name="admin-role-save">
+					<i class="icon-ok"></i> 确定</button>
+			</div>
+		</div>
+	</form>
+</article>
+
+<!--_footer 作为公共模版分离出去-->
+{include file="common/footer" /}
+<!--/_footer 作为公共模版分离出去-->
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="/static/lib/jquery.validation/1.14.0/jquery.validate.js"></script>
+<script type="text/javascript" src="/static/lib/jquery.validation/1.14.0/validate-methods.js"></script>
+<script type="text/javascript" src="/static/lib/jquery.validation/1.14.0/messages_zh.js"></script>
+<script type="text/javascript">
+    $(function(){
+        $(".permission-list dt input:checkbox").click(function(){
+            $(this).closest("dl").find("dd input:checkbox").prop("checked",$(this).prop("checked"));
+        });
+
+        $("#form-admin-role-add").validate({
+            rules:{
+                roleName:{
+                    required:true,
+                },
+            },
+            onkeyup:false,
+            focusCleanup:true,
+            success:"valid",
+            submitHandler:function(form){
+                // 	$(form).ajaxSubmit();
+                // 	var index = parent.layer.getFrameIndex(window.name);
+                // 	parent.layer.close(index);
+            }
+
+        });
+
+        $('#admin-role-save').click(function(){
+            //js获取选中的checkbox的value值
+            // obj = document.getElementsByName("menuid");
+            //  check_val = [];
+            //  for(k in obj){
+            //      if(obj[k].checked)
+            //          check_val.push(obj[k].value);
+            //  }
+            //  alert(check_val);
+            var tmp = $("input[type='checkbox']").is(':checked');
+            var name = $.trim($('#roleName').val());
+            var desc = $.trim($('#desc').val());
+            var reg = /^[\u4E00-\u9FA5]{1,5}$/;
+            if (name=='') {
+                layer.msg('角色名称不能为空',{icon:2,time:2000});
+                // alert('角色名称不能为空');
+                return false;
+            }
+            if(!reg.test(name)||!reg.test(desc)) {
+                layer.msg('名称和描述只支持中文字符',{icon:2,time:2000});
+                // alert("名称和描述只支持中文字符");
+                return false;
+            }
+            if (tmp==false) {
+                layer.msg('请选择网站角色',{icon:2,time:2000});
+                // alert('请选择网站角色');
+                return false;
+            }
+
+            //jq获取checkbox选中的value的值
+            var menuid = "";
+            $("input[name=menuid]").each(function(i){
+                if(this.checked) {
+                    if(0==i){
+                        menuid = $(this).val();
+                    }else{
+                        menuid += (","+$(this).val());
+                    }
+                }
+            });
+            $.post(
+                "{:url('admin/admin/addRole')}",
+                {menuid:menuid,desc:desc,name:name},
+                function (dat) {
+                    var data = JSON.parse(dat);
+                    var msg = data.msg;
+                    if(data.status == 1){
+                        layer.msg(msg, {
+                            icon: 1,
+                            time: 2000 //2秒关闭（如果不配置，默认是3秒）
+                        }, function(){
+                            var index = parent.layer.getFrameIndex(window.name);
+                            parent.$('.btn-refresh').click();
+                            window.parent.location.reload();
+                            parent.layer.close(index);
+                        });
+                    }else{
+                        layer.msg(msg,{icon:2,time:2000});
+                    }
+                });
+
+        });
+    });
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>

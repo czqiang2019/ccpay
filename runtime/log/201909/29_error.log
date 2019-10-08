@@ -1,0 +1,6 @@
+---------------------------------------------------------------
+[ 2019-09-29T10:50:20+08:00 ] 61.154.77.218 GET ccpay.3ii.cn/admin/index/welcome
+[ error ] [2]exec() has been disabled for security reasons[/www/wwwroot/epay.3ii.cn/application/admin/controller/Index.php:53]
+---------------------------------------------------------------
+[ 2019-09-29T10:50:35+08:00 ] 61.154.77.218 GET ccpay.3ii.cn/admin/echarts/user
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_name' in 'field list'[/www/wwwroot/epay.3ii.cn/thinkphp/library/think/db/Connection.php:385]

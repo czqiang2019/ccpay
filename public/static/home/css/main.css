@@ -1,0 +1,21 @@
+button{outline:none;}
+button:active{opacity: 0.5;}
+:focus {outline:none;} /*for IE*/
+::-moz-focus-inner {border-color: transparent;} /*for mozilla*/
+.login-body{width: 100%;height: 100%;background: url("../images/login_bg.jpg") no-repeat;background-size: cover;background-position: top;    position: fixed;}
+.login{width:8rem;max-width: 90%;background: #fff;border-radius: .3rem;position: absolute;left:0;right:0;margin: 10% auto;padding: .3rem .5rem .08rem;}
+.login h3{width: 100%;height: 1rem;line-height: 1rem;font-size: 30px;text-align: center;}
+.login .m-cell:after,.login .cell-item:not(:last-child):after{content:unset;}
+.login .cell-left{width: 8%;}
+.login button{width: 100%;line-height:.7rem;font-size:18px;color:#333;border:none;border-radius: .1rem;outline:none;margin-top:.3rem;background: rgb(242, 246, 252);}
+.login .checkbox{height: .5rem;min-height: .5rem;}
+.login .left label,.login .right label{width:20%;padding-left:0;margin-bottom:0;display: inline-block;float: left;}
+.login .right label{float: right;}
+.login .left span{margin-top:.1rem;float: left;width: 80%;}
+.login .right span{margin-top:.1rem;float: right;width: auto;margin-right: .2rem;}
+.right,.left{width: 50%;float: left;display: inline-block;    position: relative;}
+.login p{width: 100%;text-align: center;font-size: 15px;margin-top:.2rem;color:#409eff;}
+
+.p-primary{color:#409eff!important;}
+.primary{background: #409eff!important;color:#fff!important;}
+.success{background: #67c23a!important;color:#fff!important;}

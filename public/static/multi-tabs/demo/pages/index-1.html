@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Page.</title>
+</head>
+<body>
+<script>
+    function createTab(){
+        parent.$(parent.document).data('multitabs').create({
+            iframe : true,                                //iframe mode, default is false. While false, is the auto mode (for the self page, use ajax, and the external, use iframe)
+            title : 'open by iframe',                     //title of tab, if empty, show the URL
+            url : 'pages/index-2.html'                    //URL, if it's external link, content type change to 'info'
+        }, true);                                         //true for active tab
+
+    }
+</script>
+<h1>Demo iframe page 1</h1>
+<h1>Welcome to use bootstrap multi-tabs.</h1>
+<button type="button" onclick="createTab()">Create Tab</button>
+</body>
+</html>

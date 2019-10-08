@@ -1,0 +1,36 @@
+---------------------------------------------------------------
+[ 2019-09-12T12:03:19+08:00 ] 47.74.248.85 GET ccpay.3ii.cn/admin/index/welcome
+[ error ] [2]exec() has been disabled for security reasons[/www/wwwroot/epay.3ii.cn/application/admin/controller/Index.php:53]
+---------------------------------------------------------------
+[ 2019-09-12T17:14:24+08:00 ] 47.74.248.85 GET ccpay.3ii.cn/admin/index/welcome
+[ error ] [2]exec() has been disabled for security reasons[/www/wwwroot/epay.3ii.cn/application/admin/controller/Index.php:53]
+---------------------------------------------------------------
+[ 2019-09-12T17:37:04+08:00 ] 47.74.248.85 POST ccpay.3ii.cn/admin/records/index
+[ error ] [0]语法解析错误: syntax error, unexpected 'pay_qrcode_mid' (T_STRING), expecting ',' or ')'[/www/wwwroot/epay.3ii.cn/application/admin/model/RecordModel.php:14]
+---------------------------------------------------------------
+[ 2019-09-12T17:37:11+08:00 ] 47.74.248.85 POST ccpay.3ii.cn/admin/records/index
+[ error ] [0]语法解析错误: syntax error, unexpected 'pay_qrcode_mid' (T_STRING), expecting ',' or ')'[/www/wwwroot/epay.3ii.cn/application/admin/model/RecordModel.php:14]
+---------------------------------------------------------------
+[ 2019-09-12T17:37:29+08:00 ] 47.74.248.85 POST ccpay.3ii.cn/admin/records/index
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'in 1000 )  AND `type` = ?  AND `ctime` BETWEEN ? AND ? LIMIT 1' at line 1[/www/wwwroot/epay.3ii.cn/thinkphp/library/think/db/Connection.php:385]
+---------------------------------------------------------------
+[ 2019-09-12T17:38:09+08:00 ] 47.74.248.85 POST ccpay.3ii.cn/admin/records/index
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'in (get_sys('pay_qrcode_mid')) )  AND `type` = ?  AND `ctime` BETWEEN ? AND ? LI' at line 1[/www/wwwroot/epay.3ii.cn/thinkphp/library/think/db/Connection.php:385]
+---------------------------------------------------------------
+[ 2019-09-12T17:38:37+08:00 ] 47.74.248.85 POST ccpay.3ii.cn/admin/records/index
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'in (1000) )  AND `type` = ?  AND `ctime` BETWEEN ? AND ? LIMIT 1' at line 1[/www/wwwroot/epay.3ii.cn/thinkphp/library/think/db/Connection.php:385]
+---------------------------------------------------------------
+[ 2019-09-12T17:38:54+08:00 ] 47.74.248.85 POST ccpay.3ii.cn/admin/records/index
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'in (1000) )  AND `ctime` BETWEEN ? AND ? LIMIT 1' at line 1[/www/wwwroot/epay.3ii.cn/thinkphp/library/think/db/Connection.php:385]
+---------------------------------------------------------------
+[ 2019-09-12T17:39:21+08:00 ] 47.74.248.85 POST ccpay.3ii.cn/admin/records/index
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'in (1000) )  AND `ctime` BETWEEN ? AND ? LIMIT 1' at line 1[/www/wwwroot/epay.3ii.cn/thinkphp/library/think/db/Connection.php:385]
+---------------------------------------------------------------
+[ 2019-09-12T17:39:51+08:00 ] 47.74.248.85 POST ccpay.3ii.cn/admin/records/index
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1305 FUNCTION epay_3ii_cn.get_sys does not exist[/www/wwwroot/epay.3ii.cn/thinkphp/library/think/db/Connection.php:385]
+---------------------------------------------------------------
+[ 2019-09-12T17:42:21+08:00 ] 47.74.248.85 GET ccpay.3ii.cn/admin/index/welcome
+[ error ] [2]exec() has been disabled for security reasons[/www/wwwroot/epay.3ii.cn/application/admin/controller/Index.php:53]
+---------------------------------------------------------------
+[ 2019-09-12T21:23:01+08:00 ] 47.74.248.85 GET ccpay.3ii.cn/admin/index/welcome
+[ error ] [2]exec() has been disabled for security reasons[/www/wwwroot/epay.3ii.cn/application/admin/controller/Index.php:53]

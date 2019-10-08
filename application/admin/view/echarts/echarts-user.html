@@ -1,0 +1,85 @@
+{include file="common/blank" /}
+<![endif]-->
+<title>用户管理</title>
+</head>
+<body>
+<nav class="breadcrumb">
+    <i class="Hui-iconfont">&#xe67f;</i>
+    首页 <span class="c-gray en">&gt;</span>
+    系统统计 <span class="c-gray en">&gt;</span>
+    用户数据<a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" >
+    <i class="Hui-iconfont">&#xe68f;</i>
+</a>
+</nav>
+<div class="page-container">
+    <body>
+    <!-- 为 ECharts 准备一个具备大小（宽高）的 DOM -->
+    <div id="main" style="width: 600px;height:400px;"></div>
+    <div id="system" style="width: 600px;height:400px;"></div>
+    </body>
+</div>
+<!--_footer 作为公共模版分离出去-->
+{include file="common/footer" /}
+<!--/_footer 作为公共模版分离出去-->
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="/static/lib/My97DatePicker/4.8/WdatePicker.js"></script>
+<script type="text/javascript" src="/static/lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="/static/lib/laypage/1.2/laypage.js"></script>
+<script type="text/javascript">
+    // 基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById('main'));
+
+    // 指定图表的配置项和数据
+    var option = {
+        title: {
+            text: '年龄柱状图'
+        },
+        tooltip: {},
+        legend: {
+            data:['年龄']
+        },
+        xAxis: {
+            name:"姓名",
+            data: [{volist name="data" id="info" }"{$info["user_name"]}",{/volist}]
+        },
+        yAxis: {},
+        series: [{
+            name: '年龄',
+            type: 'bar',
+            data: [{volist name="data" id="info2" }{$info2["age"]},{/volist}]
+        }]
+    };
+    // 使用刚指定的配置项和数据显示图表
+    myChart.setOption(option);
+
+    var myChart2 = echarts.init(document.getElementById('system'));
+    var option2 = {
+        title : {
+            text: '该站点用户访问来源',
+            subtext: '实时数据',
+            x:'center'
+        },
+        tooltip : {
+            trigger: 'item',
+            formatter: "{a} <br/>{b} : {c} ({d}%)"
+        },
+        legend: {
+            orient: 'vertical',
+            left: 'left',
+            data: [{volist name="sql" id="sql2"}"{$sql2['user_system']}",{/volist}]
+        },
+        series : [
+            {
+                name: '访问来源',
+                type: 'pie',
+                radius : '55%',
+                center: ['50%', '60%'],
+                data:[{volist name="sql" id="sql1" }{value:{$sql1["num"]},name:"{$sql1['user_system']}"},{/volist}]
+            }
+        ]
+    };
+    myChart2.setOption(option2);
+</script>
+</body>
+</html>

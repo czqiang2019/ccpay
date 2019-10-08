@@ -1,0 +1,75 @@
+{include file="common/blank" /}
+<![endif]-->
+<!--/meta 作为公共模版分离出去-->
+<style>
+    .layui-form-radio{display: none;}
+    .layui-input-4{width:60%;float: left;}
+</style>
+<title>发送消息 - 初创网络</title>
+</head>
+<body>
+<article class="page-container">
+    <form class="layui-form layui-form-pane">
+        <div class="layui-form-item">
+            <label class="layui-form-label">接收商户</label>
+            <div class="layui-input-4">
+                <input type="text" name="mid" placeholder="请输入商户MID，全体消息请留空" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">消息标题</label>
+            <div class="layui-input-4">
+                <input type="text" name="title" lay-verify="required" placeholder="请输入公告名称" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">推送邮箱</label>
+            <div class="layui-input-block">
+                <input type="radio" name="email" value="1" checked title="不推送">
+                <input type="radio" name="email" value="0" title="推送">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">消息内容：</label>
+            <div class="layui-input-block">
+                <script name="content" id="editor" type="text/plain" style="width:800px;height:300px;"></script>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-input-block">
+                <button type="button" class="layui-btn" lay-submit="" lay-filter="submit">发送</button>
+            </div>
+        </div>
+    </form>
+</article>
+<!--图片上传-->
+<script type="text/javascript" charset="utf-8" src="/static/lib/ueditor/1.4.3/ueditor.config.js"></script>
+<script type="text/javascript" charset="utf-8" src="/static/lib/ueditor/1.4.3/ueditor.all.min.js"> </script>
+<script type="text/javascript" charset="utf-8" src="/static/lib/ueditor/1.4.3/lang/zh-cn/zh-cn.js"></script>
+<link href="/static/lib/layui/css/layui.css" media="all" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/static/lib/layui/layui.js"></script>
+<script>
+    var ue = UE.getEditor('editor');
+    layui.use(['form', 'layer'], function () {
+        var form = layui.form, layer = layui.layer,$= layui.jquery;
+        form.on('submit(submit)', function (data) {
+            loading =layer.load(1, {shade: [0.1,'#fff']});
+            $.post("", data.field, function (res) {
+                layer.close(loading);
+                if (res.code > 0) {
+                    layer.msg(res.msg, {time: 1800, icon: 1}, function () {
+                        var index = parent.layer.getFrameIndex(window.name);
+                        window.parent.location.reload();
+                        parent.layer.close(index);
+                    });
+                } else {
+                    layer.msg(res.msg, {time: 1800, icon: 2});
+                }
+            });
+        });
+    });
+</script>
+<!--_footer 作为公共模版分离出去-->
+{include file="common/footer" /}
+<!--/_footer 作为公共模版分离出去-->
+</body>

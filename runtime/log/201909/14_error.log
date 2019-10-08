@@ -1,0 +1,6 @@
+---------------------------------------------------------------
+[ 2019-09-14T09:16:32+08:00 ] 120.43.135.60 GET ccpay.3ii.cn/admin/index/welcome
+[ error ] [2]exec() has been disabled for security reasons[/www/wwwroot/epay.3ii.cn/application/admin/controller/Index.php:53]
+---------------------------------------------------------------
+[ 2019-09-14T19:06:57+08:00 ] 59.36.119.226 GET api.3ii.cn/enQrcode?url%3Dwxp://f2f0RI1GHyVJqAtKVV40-tiUSEplIaxpt9bw
+[ error ] [0]方法参数错误:url[/www/wwwroot/epay.3ii.cn/thinkphp/library/think/App.php:431]

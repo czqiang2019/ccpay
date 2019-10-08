@@ -1,0 +1,83 @@
+---------------------------------------------------------------
+[ 2019-10-01T02:02:02+08:00 ] 58.247.212.239 POST api.3ii.cn/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000392s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000770s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'site_engname' LIMIT 1 [ RunTime:0.000434s ]
+---------------------------------------------------------------
+[ 2019-10-01T10:51:11+08:00 ] 59.36.132.240 POST ccpay.3ii.cn/admin/manage/ad
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005462s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000727s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_admin` [ RunTime:0.000952s ]
+[ sql ] [ SQL ] SELECT * FROM `box_admin` WHERE  `names` IS NULL LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_operation` [ RunTime:0.000565s ]
+[ sql ] [ SQL ] INSERT INTO `box_operation` (`action` , `name` , `time`) VALUES ('admin/manage/ad' , NULL , 1569898270) [ RunTime:0.002916s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000209s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_ad` [ RunTime:0.000867s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `box_ad` LIMIT 1 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SELECT * FROM `box_ad` ORDER BY `add_time` DESC LIMIT 0,20 [ RunTime:0.000338s ]
+---------------------------------------------------------------
+[ 2019-10-01T10:51:11+08:00 ] 58.247.212.239 POST ccpay.3ii.cn/admin/manage/ad
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002528s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000720s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_admin` [ RunTime:0.000648s ]
+[ sql ] [ SQL ] SELECT * FROM `box_admin` WHERE  `names` IS NULL LIMIT 1 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_operation` [ RunTime:0.000566s ]
+[ sql ] [ SQL ] INSERT INTO `box_operation` (`action` , `name` , `time`) VALUES ('admin/manage/ad' , NULL , 1569898270) [ RunTime:0.001581s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_ad` [ RunTime:0.000710s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `box_ad` LIMIT 1 [ RunTime:0.000548s ]
+[ sql ] [ SQL ] SELECT * FROM `box_ad` ORDER BY `add_time` DESC LIMIT 0,20 [ RunTime:0.000201s ]
+---------------------------------------------------------------
+[ 2019-10-01T10:57:14+08:00 ] 182.254.52.17 POST ccpay.3ii.cn/admin/users/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000493s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000812s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_admin` [ RunTime:0.000875s ]
+[ sql ] [ SQL ] SELECT * FROM `box_admin` WHERE  `names` IS NULL LIMIT 1 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_operation` [ RunTime:0.000769s ]
+[ sql ] [ SQL ] INSERT INTO `box_operation` (`action` , `name` , `time`) VALUES ('admin/users/index' , NULL , 1569898634) [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000248s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.001015s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `box_user` WHERE  `add_time` BETWEEN 1546272000 AND 1569945600 LIMIT 1 [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SELECT * FROM `box_user` WHERE  `add_time` BETWEEN 1546272000 AND 1569945600 ORDER BY `add_time` DESC LIMIT 0,20 [ RunTime:0.000389s ]
+---------------------------------------------------------------
+[ 2019-10-01T11:18:29+08:00 ] 58.247.212.239 POST ccpay.3ii.cn/captcha?id%3D1569725412
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000379s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000262s ]
+---------------------------------------------------------------
+[ 2019-10-01T11:20:50+08:00 ] 58.247.212.239 POST ccpay.3ii.cn/admin/manage/message
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000380s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000790s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_admin` [ RunTime:0.000674s ]
+[ sql ] [ SQL ] SELECT * FROM `box_admin` WHERE  `names` IS NULL LIMIT 1 [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_operation` [ RunTime:0.000593s ]
+[ sql ] [ SQL ] INSERT INTO `box_operation` (`action` , `name` , `time`) VALUES ('admin/manage/message' , NULL , 1569900050) [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_msg` [ RunTime:0.000931s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `box_msg` LIMIT 1 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SELECT * FROM `box_msg` ORDER BY `ctime` DESC LIMIT 0,20 [ RunTime:0.000327s ]
+---------------------------------------------------------------
+[ 2019-10-01T17:21:03+08:00 ] 93.158.161.53 GET ccpay.3ii.cn/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000414s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000761s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'site_author' LIMIT 1 [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'site_title' LIMIT 1 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'site_description' LIMIT 1 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'site_keywords' LIMIT 1 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'site_name' LIMIT 1 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'site_desc' LIMIT 1 [ RunTime:0.000175s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'site_url' LIMIT 1 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'site_logo' LIMIT 1 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'site_url' LIMIT 1 [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'site_name' LIMIT 1 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'site_engname' LIMIT 1 [ RunTime:0.000268s ]

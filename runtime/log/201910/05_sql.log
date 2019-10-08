@@ -1,0 +1,1640 @@
+---------------------------------------------------------------
+[ 2019-10-05T22:34:40+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570286083735&mid=1000&sign=c4e9d90a3f739eaee1cede69c988b48b
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000463s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.002680s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000246s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000905s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000584s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000293s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570286080,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000311s ]
+---------------------------------------------------------------
+[ 2019-10-05T22:35:59+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570286163154&mid=1000&sign=cacd25113030c957d65fb38ee4223433
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000408s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000767s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.001172s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000446s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000721s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000521s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000558s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570286159,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000286s ]
+---------------------------------------------------------------
+[ 2019-10-05T22:36:40+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570286203736&mid=1000&sign=c92d9a05e6688e31a6288d24e09ebe2e
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000431s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000784s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000245s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.001275s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000757s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000729s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000263s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570286200,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000314s ]
+---------------------------------------------------------------
+[ 2019-10-05T22:37:59+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570286283157&mid=1000&sign=3d5a344db1047227c6412125a6007fdb
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001043s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000943s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.002033s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000761s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000665s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000316s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570286279,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000372s ]
+---------------------------------------------------------------
+[ 2019-10-05T22:38:40+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570286323738&mid=1000&sign=c0697d00b7e5bcad439dad4f6f6eb8d3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000524s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000903s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.001268s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000344s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000672s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000729s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000812s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570286320,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000332s ]
+---------------------------------------------------------------
+[ 2019-10-05T22:39:59+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570286403159&mid=1000&sign=682517fd9986013c89b4a1cc5af1dedc
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000537s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000816s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.001177s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000648s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000552s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000568s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570286399,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000292s ]
+---------------------------------------------------------------
+[ 2019-10-05T22:40:40+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570286443739&mid=1000&sign=ae77b494046a0f8f3a20d65d93d3ce3f
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000387s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000740s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000885s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000347s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000568s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570286440,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000296s ]
+---------------------------------------------------------------
+[ 2019-10-05T22:41:59+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570286523161&mid=1000&sign=35a9fccd8cf2a55a843e16657320051a
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000380s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000785s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000896s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000649s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000563s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570286519,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000367s ]
+---------------------------------------------------------------
+[ 2019-10-05T22:42:40+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570286563740&mid=1000&sign=321e524c30a362315906a40a0ddd3d8d
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000445s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000757s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000992s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000351s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000556s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000167s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000606s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000209s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000262s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570286560,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000311s ]
+---------------------------------------------------------------
+[ 2019-10-05T22:43:59+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570286643164&mid=1000&sign=11f5a560ef8fca73808a02f50e6c52b7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000438s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000750s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000963s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000248s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000546s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000602s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000262s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570286639,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000304s ]
+---------------------------------------------------------------
+[ 2019-10-05T22:44:40+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570286683743&mid=1000&sign=438ba50eca90b1c127fa9347c22775e7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000390s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000709s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000885s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000629s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000564s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000167s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570286680,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000318s ]
+---------------------------------------------------------------
+[ 2019-10-05T22:45:59+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570286763166&mid=1000&sign=64fe15c3d6fe91688628279dfff71635
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000400s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000726s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000951s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000610s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000506s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000592s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570286759,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000308s ]
+---------------------------------------------------------------
+[ 2019-10-05T22:46:40+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570286803745&mid=1000&sign=b139ee5b946b4e90660185eaf55a5046
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000375s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000767s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000912s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000648s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000549s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000549s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000293s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570286800,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000308s ]
+---------------------------------------------------------------
+[ 2019-10-05T22:47:59+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570286883166&mid=1000&sign=25f481da4e745f59f1a7b640a7fab92a
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000377s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000732s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000885s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000593s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000502s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000585s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000256s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570286879,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000315s ]
+---------------------------------------------------------------
+[ 2019-10-05T22:48:40+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570286923747&mid=1000&sign=6587d090dc48545d3e59cdae79e99d0c
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000384s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000710s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000985s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000676s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000543s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000578s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570286920,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000332s ]
+---------------------------------------------------------------
+[ 2019-10-05T22:49:59+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570287003168&mid=1000&sign=9b13465dbd04a9883a3eca4c7d6d77f2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000370s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000748s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000895s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000620s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000550s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000574s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570286999,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000310s ]
+---------------------------------------------------------------
+[ 2019-10-05T22:50:40+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570287043748&mid=1000&sign=3a94b33b786e487dcc79e51ad7f8c9eb
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000467s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000729s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000872s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000637s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000553s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000250s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570287040,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000292s ]
+---------------------------------------------------------------
+[ 2019-10-05T22:51:59+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570287123170&mid=1000&sign=67dd1fb2b0f9b26f7ab54beea7d94906
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000382s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000761s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000782s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000570s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570287119,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000332s ]
+---------------------------------------------------------------
+[ 2019-10-05T22:52:40+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570287163749&mid=1000&sign=344a8408ac601b60e4f7211720affa42
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000470s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.001458s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.001077s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000623s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000573s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570287160,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000313s ]
+---------------------------------------------------------------
+[ 2019-10-05T22:53:59+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570287243171&mid=1000&sign=5aae4449835b0fbf6a0af84c6c5a7e72
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000499s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000766s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000865s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000628s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000721s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000170s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000575s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570287239,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000292s ]
+---------------------------------------------------------------
+[ 2019-10-05T22:54:40+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570287283751&mid=1000&sign=02ea470786517fd13ad920495b3f103c
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000672s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000993s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.001188s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000340s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000745s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000806s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570287280,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000351s ]
+---------------------------------------------------------------
+[ 2019-10-05T22:55:59+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570287363173&mid=1000&sign=192e8339fe0972f850546c001e5aeb10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000681s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.001967s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.001698s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000654s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000572s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000612s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000248s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570287359,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000287s ]
+---------------------------------------------------------------
+[ 2019-10-05T22:56:03+08:00 ] 58.247.212.239 POST api.pay.netchu.cn/appHeart?t%3D1570155361056%26mid%3D1000%26sign%3Ddbf3063108cd60e96f33ef6f779be9a4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000449s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000832s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.001072s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000755s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000666s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000782s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` IS NULL LIMIT 1 [ RunTime:0.000361s ]
+---------------------------------------------------------------
+[ 2019-10-05T22:56:03+08:00 ] 58.247.212.239 POST api.pay.netchu.cn/appHeart?t%3D1570155361056%26mid%3D1000%26sign%3Ddbf3063108cd60e96f33ef6f779be9a4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000412s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000750s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000950s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000690s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000245s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000545s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000594s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` IS NULL LIMIT 1 [ RunTime:0.000197s ]
+---------------------------------------------------------------
+[ 2019-10-05T22:56:40+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570287403753&mid=1000&sign=13aff69c747ac3e2d1268c1f436903c8
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000464s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000777s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000963s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000670s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000502s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000167s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000555s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570287400,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000326s ]
+---------------------------------------------------------------
+[ 2019-10-05T22:57:59+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570287483175&mid=1000&sign=80bfea1f5afed47b4f50daef54c691ce
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000429s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000758s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000874s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000555s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000615s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570287479,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000304s ]
+---------------------------------------------------------------
+[ 2019-10-05T22:58:40+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570287523755&mid=1000&sign=e0b65241890ad068531598aeb8102bcc
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000507s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.001006s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.001151s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000726s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000565s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000171s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570287520,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000360s ]
+---------------------------------------------------------------
+[ 2019-10-05T22:59:59+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570287603176&mid=1000&sign=3769d2ad1f2628a61446240e3140f8dd
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000499s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000929s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000985s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000690s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000553s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000584s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570287599,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000427s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:00:40+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570287643757&mid=1000&sign=a4a984a2dc8ecc905a6ba051a0c19716
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000446s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000764s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000979s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000678s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000563s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000170s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000590s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570287640,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000331s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:01:59+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570287723177&mid=1000&sign=34af401bc8a695d13bb0f56c5418e219
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000418s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000733s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.001330s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000813s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000506s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000540s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000256s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570287719,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000291s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:02:40+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570287763759&mid=1000&sign=387abc9886f75c3eaf8089f741edf6b3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000447s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000784s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.001089s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000668s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000563s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000169s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000618s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000289s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570287760,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000338s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:03:59+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570287843179&mid=1000&sign=a401517d0618d74aeb142a7a1869d7d0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000407s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000767s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000820s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000706s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000615s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000678s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000246s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000345s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570287839,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000389s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:04:23+08:00 ] 59.36.132.240 POST api.pay.netchu.cn/appHeart?t%3D1570155361056%26mid%3D1000%26sign%3Ddbf3063108cd60e96f33ef6f779be9a4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000437s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000731s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.001103s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000687s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000555s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000209s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` IS NULL LIMIT 1 [ RunTime:0.000255s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:04:35+08:00 ] 183.192.179.16 POST api.pay.netchu.cn/appHeart?t%3D1570155361056%26mid%3D1000%26sign%3Ddbf3063108cd60e96f33ef6f779be9a4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000391s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000700s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000934s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000237s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000579s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` IS NULL LIMIT 1 [ RunTime:0.000182s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:04:40+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570287883761&mid=1000&sign=41163394d4d5fefb15d6045e154eeda8
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000511s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000938s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.001072s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000678s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570287880,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000323s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:04:42+08:00 ] 113.14.131.49 POST api.pay.netchu.cn/appHeart?t%3D1570155361056%26mid%3D1000%26sign%3Ddbf3063108cd60e96f33ef6f779be9a4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000431s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000769s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000893s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000530s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000164s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` IS NULL LIMIT 1 [ RunTime:0.000247s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:05:59+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570287963181&mid=1000&sign=78269045239cbdbefa112123be49e82c
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000358s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000742s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000973s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000571s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000612s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000187s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570287959,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000368s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:06:41+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570288003763&mid=1000&sign=227739dff8f5595526d71919396086e6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000474s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000818s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.001007s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000671s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000539s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000605s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570288001,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000385s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:07:59+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570288083183&mid=1000&sign=1c6ca752cd67885a46e08a0d14478d3e
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000424s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000914s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000858s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000661s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000169s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570288079,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000355s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:08:40+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570288123765&mid=1000&sign=3ac9f271dc1100f99aba2034c5044dec
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000412s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000805s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.001201s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000645s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000597s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000223s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000556s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000328s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570288120,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000292s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:09:59+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570288203185&mid=1000&sign=83611779fb8b06ab7dcfda324f23ab72
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000488s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.001036s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000813s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000594s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000187s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000344s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570288199,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000301s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:10:40+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570288243766&mid=1000&sign=a959dc6d42d28c811dd44558c32ac40c
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000414s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000969s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000623s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000542s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000569s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570288240,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000296s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:11:59+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570288323187&mid=1000&sign=f76117d0fe75134c7f53c18f71e3b978
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000393s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000755s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.001023s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000878s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000209s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000582s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000336s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570288319,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000415s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:12:40+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570288363767&mid=1000&sign=e48081b518f2ca3b58938d54237a6419
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000431s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000704s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000872s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000539s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000164s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000574s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570288360,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000326s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:13:59+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570288443189&mid=1000&sign=0c08f9669ba54bd614ee1d4972c3add1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000458s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000737s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000989s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000258s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570288439,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000293s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:14:40+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570288483769&mid=1000&sign=8613fef200227fdb2eb83a78dc84bfa2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000471s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000794s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000952s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000636s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000542s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000170s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570288480,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000357s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:15:59+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570288563192&mid=1000&sign=60109814d0cd8df6388351bd6c18ef7b
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000431s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000738s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000823s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000574s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000250s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570288559,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000319s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:16:40+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570288603771&mid=1000&sign=862243597866607968cda2efec308ce1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000375s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000739s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000947s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000529s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570288600,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000310s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:17:59+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570288683193&mid=1000&sign=5b9aacd3f37ee6913ca9d2c82409859f
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000368s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000691s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000758s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000533s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000170s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000542s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570288679,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000302s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:18:40+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570288723772&mid=1000&sign=dabcf6a11e5fe5c34a80be2336cb52d9
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000373s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000763s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000978s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000606s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000515s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570288720,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000297s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:19:59+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570288803195&mid=1000&sign=65ffec65697b00feb445da76e9a558d7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000393s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000792s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000903s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000697s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000757s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000826s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000345s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570288799,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000430s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:20:40+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570288843774&mid=1000&sign=f762d1f5b9376cbc25d9f565172f2b75
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000390s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000719s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.001015s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000653s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000570s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570288840,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000316s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:21:14+08:00 ] 59.36.132.240 POST api.pay.netchu.cn/appHeart?t%3D1570156201069%26mid%3D1000%26sign%3D2c259a6683593eb6a397cc02114d69e4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000367s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000703s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000833s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000620s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` IS NULL LIMIT 1 [ RunTime:0.000337s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:21:14+08:00 ] 182.254.52.17 POST api.pay.netchu.cn/appHeart?t%3D1570156201069%26mid%3D1000%26sign%3D2c259a6683593eb6a397cc02114d69e4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000343s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000677s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000963s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.018582s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000607s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000954s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.010012s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000820s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` IS NULL LIMIT 1 [ RunTime:0.003004s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:21:14+08:00 ] 182.254.52.17 POST api.pay.netchu.cn/appHeart?t%3D1570156201069%26mid%3D1000%26sign%3D2c259a6683593eb6a397cc02114d69e4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007348s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.017320s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.003063s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.009572s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.002055s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.001195s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000553s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000223s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` IS NULL LIMIT 1 [ RunTime:0.002610s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:21:14+08:00 ] 59.36.132.240 POST api.pay.netchu.cn/appHeart?t%3D1570156201069%26mid%3D1000%26sign%3D2c259a6683593eb6a397cc02114d69e4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011599s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000692s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000916s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000636s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000537s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000542s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` IS NULL LIMIT 1 [ RunTime:0.000203s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:21:59+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570288923197&mid=1000&sign=054d964747b16b7f7b7a6fdfea468522
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000451s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000791s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000933s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000572s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000615s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000256s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570288919,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000351s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:22:40+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570288963776&mid=1000&sign=2184e1685b2245de01cffb47962900f5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000385s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000801s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000894s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000687s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000589s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000576s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570288960,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000342s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:23:59+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570289043198&mid=1000&sign=17593ea33a4c8adf479e122924d5f563
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000387s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000746s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000967s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000550s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.001018s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570289039,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000333s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:24:40+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570289083778&mid=1000&sign=d649af97ddb2786c96d0c160f051faab
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000410s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000778s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000955s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000237s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000546s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000597s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570289080,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000292s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:25:59+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570289163200&mid=1000&sign=b770a353cda2638b27d3f805e36d970a
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000404s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000740s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000908s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000520s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000620s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570289159,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000329s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:26:40+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570289203780&mid=1000&sign=ce5f457f2f03eda43710cef6549d7e16
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000381s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000824s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000785s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000806s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000544s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570289200,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000299s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:27:59+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570289283201&mid=1000&sign=0be80d859c2e1a3c1a50b49c24dc1417
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000415s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000830s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.001457s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000770s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000579s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000170s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000686s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570289279,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000365s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:28:40+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570289323781&mid=1000&sign=3adf01f50b1e0299f1c0583e64dfb2ac
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000391s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000725s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000839s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000631s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000607s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570289320,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000292s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:29:40+08:00 ] 183.192.179.16 POST api.pay.netchu.cn/appHeart?t%3D1570156201069%26mid%3D1000%26sign%3D2c259a6683593eb6a397cc02114d69e4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000379s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000799s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.001176s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000501s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.001048s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000913s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000846s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` IS NULL LIMIT 1 [ RunTime:0.000332s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:29:40+08:00 ] 116.128.128.41 POST api.pay.netchu.cn/appHeart?t%3D1570156201069%26mid%3D1000%26sign%3D2c259a6683593eb6a397cc02114d69e4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009691s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000949s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.009474s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.001110s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.001618s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.001009s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.001045s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000811s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.001439s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000869s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` IS NULL LIMIT 1 [ RunTime:0.001718s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:29:40+08:00 ] 182.254.52.17 POST api.pay.netchu.cn/appHeart?t%3D1570156201069%26mid%3D1000%26sign%3D2c259a6683593eb6a397cc02114d69e4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010139s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000665s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.002025s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000927s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.001715s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000952s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000940s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.001189s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.001044s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.001387s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` IS NULL LIMIT 1 [ RunTime:0.003011s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:29:44+08:00 ] 59.36.132.240 POST api.pay.netchu.cn/appHeart?t%3D1570156201069%26mid%3D1000%26sign%3D2c259a6683593eb6a397cc02114d69e4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000362s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.002586s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000248s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000910s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000717s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000525s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000164s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` IS NULL LIMIT 1 [ RunTime:0.000200s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:29:53+08:00 ] 111.72.194.244 POST api.pay.netchu.cn/appHeart?t%3D1570156201069%26mid%3D1000%26sign%3D2c259a6683593eb6a397cc02114d69e4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000425s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000755s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000968s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000645s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000660s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000581s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` IS NULL LIMIT 1 [ RunTime:0.000180s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:29:53+08:00 ] 58.247.212.239 POST api.pay.netchu.cn/appHeart?t%3D1570156201069%26mid%3D1000%26sign%3D2c259a6683593eb6a397cc02114d69e4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000485s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000821s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000886s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000625s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000534s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` IS NULL LIMIT 1 [ RunTime:0.000179s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:29:59+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570289403202&mid=1000&sign=a9f98d1437e70984ecdfb3ee6c42ac57
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000362s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000713s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000898s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000678s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000554s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000805s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570289399,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000307s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:30:40+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570289443783&mid=1000&sign=8b6cb30dfed6e22d3d668c1355d4f024
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000564s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000729s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000926s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000760s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000166s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000633s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000251s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570289440,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000355s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:31:59+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570289523203&mid=1000&sign=b16bb77c2afbca040886d2aea61edc4c
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000386s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000733s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000901s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000648s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000245s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000537s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000248s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570289519,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000314s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:32:40+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570289563785&mid=1000&sign=f2ef6f3e11d0ad5bc16cdbb030c14e80
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000404s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000721s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.001007s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000686s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570289560,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000318s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:33:19+08:00 ] 59.36.132.240 POST api.pay.netchu.cn/appHeart?t%3D1570155361056%26mid%3D1000%26sign%3Ddbf3063108cd60e96f33ef6f779be9a4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000432s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000773s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.008974s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000523s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.001032s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000514s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` IS NULL LIMIT 1 [ RunTime:0.002012s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:33:19+08:00 ] 59.36.132.240 POST api.pay.netchu.cn/appHeart?t%3D1570155361056%26mid%3D1000%26sign%3Ddbf3063108cd60e96f33ef6f779be9a4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016132s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000719s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.004902s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.001197s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.002895s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` IS NULL LIMIT 1 [ RunTime:0.000204s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:33:59+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570289643205&mid=1000&sign=b49087c757bca08714ff5cdfb387cb6d
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000423s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000758s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.001302s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000866s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000548s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570289639,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000289s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:34:40+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570289683788&mid=1000&sign=ec8bd133264db2c48408e4150595103c
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000499s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000782s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.001042s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000673s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000237s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000573s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000653s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570289680,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000360s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:35:59+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570289763208&mid=1000&sign=78a6a7f4b78ae8a4a0ee0c2041350e12
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000397s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000720s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000868s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000520s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000594s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000251s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570289759,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000333s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:36:40+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570289803790&mid=1000&sign=b57d0478625381debfbe163348d006e5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000371s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000847s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000992s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000577s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570289800,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000298s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:37:59+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570289883211&mid=1000&sign=ba024f77df86a629f49d59698cbb81cf
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000371s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000702s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000246s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.001190s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000695s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000529s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000543s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000309s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570289879,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000293s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:38:40+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570289923791&mid=1000&sign=87fa0c1014442a86cf00d2a62b103d4f
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000422s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000758s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000223s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000961s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000688s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000548s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000169s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000579s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570289920,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000293s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:39:59+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570290003213&mid=1000&sign=81d9be0288f48cb1ef8ee65350ed45ec
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000391s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000722s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000853s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000636s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000628s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000170s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000587s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000256s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570289999,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000324s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:40:40+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570290043792&mid=1000&sign=8d3433d85e0ed0326ae410f4b05b8d0b
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000411s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000797s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000889s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000662s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000413s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000566s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000632s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570290040,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000313s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:41:59+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570290123214&mid=1000&sign=e5a8b9e9b5110519bc3ab74bea0273bf
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000381s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000766s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000904s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000649s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000631s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570290119,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000323s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:42:40+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570290163795&mid=1000&sign=ab8d8ee7685747bf1269f4de4ab3d8f2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000725s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.001047s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.001151s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000665s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000567s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000554s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570290160,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000303s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:43:59+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570290243216&mid=1000&sign=5cc6015ccb83ea400936cbc10176724f
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000405s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000726s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000852s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000545s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000167s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000582s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000187s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000263s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570290239,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000329s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:44:40+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570290283796&mid=1000&sign=effdd2e5e6101c39044ff69d7715a3d3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000427s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000780s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.001103s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000689s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000555s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000237s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570290280,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000313s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:45:59+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570290363218&mid=1000&sign=cf66a8ad402e07db51c2e60de128811b
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003719s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000705s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000915s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.003580s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000528s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000558s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570290359,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000291s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:46:40+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570290403798&mid=1000&sign=fb098ee85fde654f00caf48dfa13be7b
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000399s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000783s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000896s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000631s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000629s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000253s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570290400,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000318s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:47:59+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570290483220&mid=1000&sign=361cadda0c9375d89bfb4e1a0674692f
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000410s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000727s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.001061s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000333s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000947s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000606s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570290479,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000340s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:48:40+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570290523800&mid=1000&sign=7d410c883feb2e3f858805e970298b7a
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000361s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000715s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.001176s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000632s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000248s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000525s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000570s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570290520,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.006816s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:49:00+08:00 ] 183.192.179.16 POST api.pay.netchu.cn/appHeart?t%3D1570154801705%26mid%3D1000%26sign%3Da26d2f1407952383db2ec0794b196ee2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000377s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000781s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000971s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000337s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000689s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000578s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000169s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` IS NULL LIMIT 1 [ RunTime:0.000312s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:49:59+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570290603222&mid=1000&sign=e67bbb6377039a0a0e743e8bd1dd3737
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000454s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000750s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000949s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000668s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000537s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000356s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570290599,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000406s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:50:40+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570290643802&mid=1000&sign=23dc6b97b14f8738ba506c87b42e9c4f
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000470s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000768s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.001208s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000352s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000717s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000889s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000581s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570290640,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000311s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:51:59+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570290723225&mid=1000&sign=f78b3fb72269a001a6fb72e5036bacf0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000491s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000777s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000920s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000812s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000530s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000592s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570290719,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000302s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:52:40+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570290763804&mid=1000&sign=b03b628d3531cc83c1ea032ff7cdd336
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000493s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000799s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000781s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000533s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570290760,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000314s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:53:59+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570290843226&mid=1000&sign=f28b562437ead96923a9da3d8cecdc7f
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000383s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000728s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.001251s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000342s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000637s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000533s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000175s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570290839,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000292s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:54:40+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570290883807&mid=1000&sign=ea91128c3585b744798a987fed3fc653
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000419s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000724s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000313s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000616s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000523s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000567s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570290880,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000291s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:55:59+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570290963229&mid=1000&sign=0ab6f239671998e7fab841555481726c
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002414s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000731s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000223s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.003760s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000376s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000749s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000585s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000578s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000209s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000428s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570290959,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000300s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:56:40+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570291003808&mid=1000&sign=9240bc8e8e79bfeb669849cf2f33ea42
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000465s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000778s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000845s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000607s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570291000,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000320s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:57:29+08:00 ] 58.247.212.239 POST api.pay.netchu.cn/appHeart?t%3D1570154801705%26mid%3D1000%26sign%3Da26d2f1407952383db2ec0794b196ee2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000444s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000745s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.001054s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000443s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000655s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000649s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` IS NULL LIMIT 1 [ RunTime:0.000242s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:57:59+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570291083231&mid=1000&sign=5186d503d3cf93f8e568e94c53df15de
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000409s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000703s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000960s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000565s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000166s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000573s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000263s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570291079,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000297s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:58:40+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570291123810&mid=1000&sign=03a8bc936a6e5a09c586796a1a73ff5f
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000469s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000759s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000849s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000633s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000556s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000258s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570291120,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000300s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:58:43+08:00 ] 183.192.179.16 POST api.pay.netchu.cn/appHeart?t%3D1570156201069%26mid%3D1000%26sign%3D2c259a6683593eb6a397cc02114d69e4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000481s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000903s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000636s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000546s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` IS NULL LIMIT 1 [ RunTime:0.000282s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:58:44+08:00 ] 58.247.212.239 POST api.pay.netchu.cn/appHeart?t%3D1570156201069%26mid%3D1000%26sign%3D2c259a6683593eb6a397cc02114d69e4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000698s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000715s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000904s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000611s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000509s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000616s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` IS NULL LIMIT 1 [ RunTime:0.000179s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:58:44+08:00 ] 182.254.52.17 POST api.pay.netchu.cn/appHeart?t%3D1570156201069%26mid%3D1000%26sign%3D2c259a6683593eb6a397cc02114d69e4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000392s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000702s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000858s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000663s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000543s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000564s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` IS NULL LIMIT 1 [ RunTime:0.000192s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:58:44+08:00 ] 182.108.46.202 POST api.pay.netchu.cn/appHeart?t%3D1570156201069%26mid%3D1000%26sign%3D2c259a6683593eb6a397cc02114d69e4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000402s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000698s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.011974s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000296s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000730s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000546s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000591s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` IS NULL LIMIT 1 [ RunTime:0.000182s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:58:44+08:00 ] 182.108.46.202 POST api.pay.netchu.cn/appHeart?t%3D1570156201069%26mid%3D1000%26sign%3D2c259a6683593eb6a397cc02114d69e4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000296s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000624s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000983s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000237s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000560s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000237s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` IS NULL LIMIT 1 [ RunTime:0.000180s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:58:53+08:00 ] 182.254.52.17 POST api.pay.netchu.cn/appHeart?t%3D1570156201069%26mid%3D1000%26sign%3D2c259a6683593eb6a397cc02114d69e4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000386s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000789s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000765s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000673s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000565s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000552s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` IS NULL LIMIT 1 [ RunTime:0.000201s ]
+---------------------------------------------------------------
+[ 2019-10-05T23:59:59+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570291203233&mid=1000&sign=a95461ef3acec06bb9425865efdef00e
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000415s ] mysql:host=127.0.0.1;port=3306;dbname=epay_3ii_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000738s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'admin_login_path' LIMIT 1 [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user` [ RunTime:0.000940s ]
+[ sql ] [ SQL ] SELECT `id`,`lastheart`,`email`,`mid`,`jkstate` FROM `box_user` WHERE  `jkstate` = '1' [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay_order` [ RunTime:0.000655s ]
+[ sql ] [ SQL ] SELECT * FROM `box_pay_order` WHERE  `state` = 0 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_tmp_price` [ RunTime:0.000531s ]
+[ sql ] [ SQL ] SELECT * FROM `box_tmp_price` [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_pay` [ RunTime:0.000563s ]
+[ sql ] [ SQL ] SELECT `id`,`ctime`,`status` FROM `box_pay` WHERE  `status` = 1 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT `apikey` FROM `box_user` WHERE  `mid` = 1000 LIMIT 1 [ RunTime:0.000390s ]
+[ sql ] [ SQL ] UPDATE `box_user`  SET `lastheart`=1570291199,`jkstate`='1'  WHERE  `mid` = 1000 [ RunTime:0.000298s ]

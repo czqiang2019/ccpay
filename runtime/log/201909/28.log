@@ -1,0 +1,1442 @@
+---------------------------------------------------------------
+[ 2019-09-28T02:50:46+08:00 ] 93.158.161.53 GET ccpay.3ii.cn/login
+[运行时间：0.385721s] [吞吐率：2.59req/s] [内存消耗：2,477.54kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'from' => 'support@search.yandex.ru',
+  'user-agent' => 'Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)',
+  'connection' => 'Keep-Alive',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ccpay',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Login->login[ /www/wwwroot/epay.3ii.cn/application/home/controller/Login.php ]
+[ info ] [ VIEW ] ../template/default/login/login.html [ array (
+  0 => 'uid',
+  1 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-28T18:45:27+08:00 ] 61.154.77.218 GET ccpay.3ii.cn/
+[运行时间：0.213047s] [吞吐率：4.69req/s] [内存消耗：2,585.47kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cfb504f454c2-0ab1198188e468-38607501-1fa400-16cfb504f46ecb; PHPSESSID=uanulhn7fi9i3fjngpe1ov2vit; Hm_lvt_080836300300be57b7f34f4b3e97d911=1568044191,1568130022; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1568783154',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://129.226.76.244:37520/site',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ccpay',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /www/wwwroot/epay.3ii.cn/application/home/controller/Index.php ]
+[ info ] [ VIEW ] ../template/default/index/index.html [ array (
+  0 => 'uid',
+  1 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-28T18:45:32+08:00 ] 61.154.77.218 GET ccpay.3ii.cn/ccpaysys
+[运行时间：0.075875s] [吞吐率：13.18req/s] [内存消耗：2,114.96kb] [文件加载：40]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ccpaysys',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cfb504f454c2-0ab1198188e468-38607501-1fa400-16cfb504f46ecb; PHPSESSID=uanulhn7fi9i3fjngpe1ov2vit; Hm_lvt_080836300300be57b7f34f4b3e97d911=1568044191,1568130022; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1568783154',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-28T18:45:33+08:00 ] 61.154.77.218 GET ccpay.3ii.cn/ccpaysys
+[运行时间：0.022181s] [吞吐率：45.08req/s] [内存消耗：2,115.17kb] [文件加载：40]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ccpaysys',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cfb504f454c2-0ab1198188e468-38607501-1fa400-16cfb504f46ecb; PHPSESSID=uanulhn7fi9i3fjngpe1ov2vit; Hm_lvt_080836300300be57b7f34f4b3e97d911=1568044191,1568130022; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1568783154',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-28T18:45:34+08:00 ] 61.154.77.218 GET ccpay.3ii.cn/ccpaysys
+[运行时间：0.021335s] [吞吐率：46.87req/s] [内存消耗：2,115.17kb] [文件加载：40]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ccpaysys',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cfb504f454c2-0ab1198188e468-38607501-1fa400-16cfb504f46ecb; PHPSESSID=uanulhn7fi9i3fjngpe1ov2vit; Hm_lvt_080836300300be57b7f34f4b3e97d911=1568044191,1568130022; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1568783154',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-28T18:45:39+08:00 ] 61.154.77.218 GET ccpay.3ii.cn/admin
+[运行时间：0.116051s] [吞吐率：8.62req/s] [内存消耗：2,453.45kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cfb504f454c2-0ab1198188e468-38607501-1fa400-16cfb504f46ecb; PHPSESSID=uanulhn7fi9i3fjngpe1ov2vit; Hm_lvt_080836300300be57b7f34f4b3e97d911=1568044191,1568130022; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1568783154',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'purpose' => 'prefetch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ccpay',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-28T18:45:39+08:00 ] 61.154.77.218 GET ccpay.3ii.cn/iccpaysys
+[运行时间：0.072683s] [吞吐率：13.76req/s] [内存消耗：2,483.94kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cfb504f454c2-0ab1198188e468-38607501-1fa400-16cfb504f46ecb; PHPSESSID=uanulhn7fi9i3fjngpe1ov2vit; Hm_lvt_080836300300be57b7f34f4b3e97d911=1568044191,1568130022; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1568783154',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'purpose' => 'prefetch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ /www/wwwroot/epay.3ii.cn/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ccpay',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /www/wwwroot/epay.3ii.cn/public/../application/admin/view/login/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-28T18:45:39+08:00 ] 27.157.76.160 GET ccpay.3ii.cn/captcha
+[运行时间：0.098273s] [吞吐率：10.18req/s] [内存消耗：2,150.23kb] [文件加载：40]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cfb504f454c2-0ab1198188e468-38607501-1fa400-16cfb504f46ecb; PHPSESSID=uanulhn7fi9i3fjngpe1ov2vit; Hm_lvt_080836300300be57b7f34f4b3e97d911=1568044191,1568130022; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1568783154',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://ccpay.3ii.cn/iccpaysys',
+  'purpose' => 'prefetch',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/wwwroot/epay.3ii.cn/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ccpay',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-28T18:45:40+08:00 ] 27.157.76.160 GET ccpay.3ii.cn/iccpaysys
+[运行时间：0.027560s] [吞吐率：36.28req/s] [内存消耗：2,484.51kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cfb504f454c2-0ab1198188e468-38607501-1fa400-16cfb504f46ecb; PHPSESSID=uanulhn7fi9i3fjngpe1ov2vit; Hm_lvt_080836300300be57b7f34f4b3e97d911=1568044191,1568130022; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1568783154',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ /www/wwwroot/epay.3ii.cn/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ccpay',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /www/wwwroot/epay.3ii.cn/public/../application/admin/view/login/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-28T18:45:40+08:00 ] 27.157.76.160 GET ccpay.3ii.cn/captcha
+[运行时间：0.023580s] [吞吐率：42.41req/s] [内存消耗：2,149.91kb] [文件加载：40]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cfb504f454c2-0ab1198188e468-38607501-1fa400-16cfb504f46ecb; PHPSESSID=uanulhn7fi9i3fjngpe1ov2vit; Hm_lvt_080836300300be57b7f34f4b3e97d911=1568044191,1568130022; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1568783154',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://ccpay.3ii.cn/iccpaysys',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/wwwroot/epay.3ii.cn/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ccpay',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-28T18:45:41+08:00 ] 27.157.76.160 GET ccpay.3ii.cn/iccpaysys
+[运行时间：0.026949s] [吞吐率：37.11req/s] [内存消耗：2,484.97kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cfb504f454c2-0ab1198188e468-38607501-1fa400-16cfb504f46ecb; PHPSESSID=uanulhn7fi9i3fjngpe1ov2vit; Hm_lvt_080836300300be57b7f34f4b3e97d911=1568044191,1568130022; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1568783154',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ /www/wwwroot/epay.3ii.cn/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ccpay',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /www/wwwroot/epay.3ii.cn/public/../application/admin/view/login/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-28T18:45:41+08:00 ] 27.157.76.160 GET ccpay.3ii.cn/captcha
+[运行时间：0.034783s] [吞吐率：28.75req/s] [内存消耗：2,149.91kb] [文件加载：40]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cfb504f454c2-0ab1198188e468-38607501-1fa400-16cfb504f46ecb; PHPSESSID=uanulhn7fi9i3fjngpe1ov2vit; Hm_lvt_080836300300be57b7f34f4b3e97d911=1568044191,1568130022; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1568783154',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://ccpay.3ii.cn/iccpaysys',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/wwwroot/epay.3ii.cn/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ccpay',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-28T18:45:41+08:00 ] 27.157.76.160 GET ccpay.3ii.cn/iccpaysys
+[运行时间：0.026227s] [吞吐率：38.13req/s] [内存消耗：2,484.97kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cfb504f454c2-0ab1198188e468-38607501-1fa400-16cfb504f46ecb; PHPSESSID=uanulhn7fi9i3fjngpe1ov2vit; Hm_lvt_080836300300be57b7f34f4b3e97d911=1568044191,1568130022; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1568783154',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ /www/wwwroot/epay.3ii.cn/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ccpay',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /www/wwwroot/epay.3ii.cn/public/../application/admin/view/login/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-28T18:45:42+08:00 ] 27.157.76.160 GET ccpay.3ii.cn/captcha
+[运行时间：0.039806s] [吞吐率：25.12req/s] [内存消耗：2,149.91kb] [文件加载：40]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cfb504f454c2-0ab1198188e468-38607501-1fa400-16cfb504f46ecb; PHPSESSID=uanulhn7fi9i3fjngpe1ov2vit; Hm_lvt_080836300300be57b7f34f4b3e97d911=1568044191,1568130022; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1568783154',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://ccpay.3ii.cn/iccpaysys',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/wwwroot/epay.3ii.cn/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ccpay',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-28T18:45:42+08:00 ] 27.157.76.160 GET ccpay.3ii.cn/iccpaysys
+[运行时间：0.027664s] [吞吐率：36.15req/s] [内存消耗：2,484.97kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cfb504f454c2-0ab1198188e468-38607501-1fa400-16cfb504f46ecb; PHPSESSID=uanulhn7fi9i3fjngpe1ov2vit; Hm_lvt_080836300300be57b7f34f4b3e97d911=1568044191,1568130022; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1568783154',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ /www/wwwroot/epay.3ii.cn/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ccpay',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /www/wwwroot/epay.3ii.cn/public/../application/admin/view/login/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-28T18:45:42+08:00 ] 27.157.76.160 GET ccpay.3ii.cn/captcha
+[运行时间：0.023482s] [吞吐率：42.59req/s] [内存消耗：2,149.91kb] [文件加载：40]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cfb504f454c2-0ab1198188e468-38607501-1fa400-16cfb504f46ecb; PHPSESSID=uanulhn7fi9i3fjngpe1ov2vit; Hm_lvt_080836300300be57b7f34f4b3e97d911=1568044191,1568130022; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1568783154',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://ccpay.3ii.cn/iccpaysys',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/wwwroot/epay.3ii.cn/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ccpay',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-28T18:45:42+08:00 ] 27.157.76.160 GET ccpay.3ii.cn/iccpaysys
+[运行时间：0.029345s] [吞吐率：34.08req/s] [内存消耗：2,484.97kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cfb504f454c2-0ab1198188e468-38607501-1fa400-16cfb504f46ecb; PHPSESSID=uanulhn7fi9i3fjngpe1ov2vit; Hm_lvt_080836300300be57b7f34f4b3e97d911=1568044191,1568130022; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1568783154',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ /www/wwwroot/epay.3ii.cn/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ccpay',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /www/wwwroot/epay.3ii.cn/public/../application/admin/view/login/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-28T18:45:43+08:00 ] 27.157.76.160 GET ccpay.3ii.cn/captcha
+[运行时间：0.023510s] [吞吐率：42.54req/s] [内存消耗：2,149.91kb] [文件加载：40]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cfb504f454c2-0ab1198188e468-38607501-1fa400-16cfb504f46ecb; PHPSESSID=uanulhn7fi9i3fjngpe1ov2vit; Hm_lvt_080836300300be57b7f34f4b3e97d911=1568044191,1568130022; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1568783154',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://ccpay.3ii.cn/iccpaysys',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/wwwroot/epay.3ii.cn/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ccpay',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-28T18:45:43+08:00 ] 27.157.76.160 GET ccpay.3ii.cn/iccpaysys
+[运行时间：0.025677s] [吞吐率：38.95req/s] [内存消耗：2,484.97kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cfb504f454c2-0ab1198188e468-38607501-1fa400-16cfb504f46ecb; PHPSESSID=uanulhn7fi9i3fjngpe1ov2vit; Hm_lvt_080836300300be57b7f34f4b3e97d911=1568044191,1568130022; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1568783154',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ /www/wwwroot/epay.3ii.cn/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ccpay',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /www/wwwroot/epay.3ii.cn/public/../application/admin/view/login/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-28T18:45:43+08:00 ] 27.157.76.160 GET ccpay.3ii.cn/captcha
+[运行时间：0.021961s] [吞吐率：45.54req/s] [内存消耗：2,149.91kb] [文件加载：40]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cfb504f454c2-0ab1198188e468-38607501-1fa400-16cfb504f46ecb; PHPSESSID=uanulhn7fi9i3fjngpe1ov2vit; Hm_lvt_080836300300be57b7f34f4b3e97d911=1568044191,1568130022; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1568783154',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://ccpay.3ii.cn/iccpaysys',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/wwwroot/epay.3ii.cn/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ccpay',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-28T18:45:44+08:00 ] 27.157.76.160 GET ccpay.3ii.cn/iccpaysys
+[运行时间：0.026349s] [吞吐率：37.95req/s] [内存消耗：2,484.97kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cfb504f454c2-0ab1198188e468-38607501-1fa400-16cfb504f46ecb; PHPSESSID=uanulhn7fi9i3fjngpe1ov2vit; Hm_lvt_080836300300be57b7f34f4b3e97d911=1568044191,1568130022; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1568783154',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ /www/wwwroot/epay.3ii.cn/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ccpay',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /www/wwwroot/epay.3ii.cn/public/../application/admin/view/login/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-28T18:45:44+08:00 ] 27.157.76.160 GET ccpay.3ii.cn/captcha
+[运行时间：0.026442s] [吞吐率：37.82req/s] [内存消耗：2,149.91kb] [文件加载：40]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cfb504f454c2-0ab1198188e468-38607501-1fa400-16cfb504f46ecb; PHPSESSID=uanulhn7fi9i3fjngpe1ov2vit; Hm_lvt_080836300300be57b7f34f4b3e97d911=1568044191,1568130022; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1568783154',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://ccpay.3ii.cn/iccpaysys',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/wwwroot/epay.3ii.cn/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ccpay',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-28T18:45:47+08:00 ] 27.157.76.160 GET ccpay.3ii.cn/admin
+[运行时间：0.027894s] [吞吐率：35.85req/s] [内存消耗：2,454.46kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cfb504f454c2-0ab1198188e468-38607501-1fa400-16cfb504f46ecb; PHPSESSID=uanulhn7fi9i3fjngpe1ov2vit; Hm_lvt_080836300300be57b7f34f4b3e97d911=1568044191,1568130022; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1568783154',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'purpose' => 'prefetch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ccpay',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-28T18:45:47+08:00 ] 27.157.76.160 GET ccpay.3ii.cn/iccpaysys
+[运行时间：0.027136s] [吞吐率：36.85req/s] [内存消耗：2,484.51kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cfb504f454c2-0ab1198188e468-38607501-1fa400-16cfb504f46ecb; PHPSESSID=uanulhn7fi9i3fjngpe1ov2vit; Hm_lvt_080836300300be57b7f34f4b3e97d911=1568044191,1568130022; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1568783154',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ /www/wwwroot/epay.3ii.cn/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ccpay',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /www/wwwroot/epay.3ii.cn/public/../application/admin/view/login/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-28T18:45:47+08:00 ] 27.157.76.160 GET ccpay.3ii.cn/captcha
+[运行时间：0.022530s] [吞吐率：44.39req/s] [内存消耗：2,149.91kb] [文件加载：40]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cfb504f454c2-0ab1198188e468-38607501-1fa400-16cfb504f46ecb; PHPSESSID=uanulhn7fi9i3fjngpe1ov2vit; Hm_lvt_080836300300be57b7f34f4b3e97d911=1568044191,1568130022; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1568783154',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://ccpay.3ii.cn/iccpaysys',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/wwwroot/epay.3ii.cn/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ccpay',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-28T18:45:48+08:00 ] 27.157.76.160 GET ccpay.3ii.cn/iccpaysys
+[运行时间：0.026761s] [吞吐率：37.37req/s] [内存消耗：2,484.97kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cfb504f454c2-0ab1198188e468-38607501-1fa400-16cfb504f46ecb; PHPSESSID=uanulhn7fi9i3fjngpe1ov2vit; Hm_lvt_080836300300be57b7f34f4b3e97d911=1568044191,1568130022; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1568783154',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ /www/wwwroot/epay.3ii.cn/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ccpay',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /www/wwwroot/epay.3ii.cn/public/../application/admin/view/login/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-28T18:45:48+08:00 ] 27.157.76.160 GET ccpay.3ii.cn/captcha
+[运行时间：0.023426s] [吞吐率：42.69req/s] [内存消耗：2,149.91kb] [文件加载：40]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cfb504f454c2-0ab1198188e468-38607501-1fa400-16cfb504f46ecb; PHPSESSID=uanulhn7fi9i3fjngpe1ov2vit; Hm_lvt_080836300300be57b7f34f4b3e97d911=1568044191,1568130022; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1568783154',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://ccpay.3ii.cn/iccpaysys',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/wwwroot/epay.3ii.cn/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ccpay',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-28T18:45:58+08:00 ] 27.157.76.160 GET ccpay.3ii.cn/iccpaysys
+[运行时间：0.026748s] [吞吐率：37.39req/s] [内存消耗：2,484.97kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cfb504f454c2-0ab1198188e468-38607501-1fa400-16cfb504f46ecb; PHPSESSID=uanulhn7fi9i3fjngpe1ov2vit; Hm_lvt_080836300300be57b7f34f4b3e97d911=1568044191,1568130022; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1568783154',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ /www/wwwroot/epay.3ii.cn/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ccpay',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /www/wwwroot/epay.3ii.cn/public/../application/admin/view/login/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-28T18:45:58+08:00 ] 27.157.76.160 GET ccpay.3ii.cn/captcha
+[运行时间：0.025830s] [吞吐率：38.71req/s] [内存消耗：2,149.91kb] [文件加载：40]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cfb504f454c2-0ab1198188e468-38607501-1fa400-16cfb504f46ecb; PHPSESSID=uanulhn7fi9i3fjngpe1ov2vit; Hm_lvt_080836300300be57b7f34f4b3e97d911=1568044191,1568130022; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1568783154',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://ccpay.3ii.cn/iccpaysys',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/wwwroot/epay.3ii.cn/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ccpay',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-28T18:46:02+08:00 ] 27.157.76.160 GET ccpay.3ii.cn/captcha
+[运行时间：0.022772s] [吞吐率：43.91req/s] [内存消耗：2,150.36kb] [文件加载：40]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cfb504f454c2-0ab1198188e468-38607501-1fa400-16cfb504f46ecb; PHPSESSID=uanulhn7fi9i3fjngpe1ov2vit; Hm_lvt_080836300300be57b7f34f4b3e97d911=1568044191,1568130022; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1568783154',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/wwwroot/epay.3ii.cn/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ccpay',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-28T18:51:51+08:00 ] 27.157.76.160 GET ccpay.3ii.cn/admin
+[运行时间：0.051794s] [吞吐率：19.31req/s] [内存消耗：2,451.80kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cfb504f454c2-0ab1198188e468-38607501-1fa400-16cfb504f46ecb; PHPSESSID=uanulhn7fi9i3fjngpe1ov2vit; Hm_lvt_080836300300be57b7f34f4b3e97d911=1568044191,1568130022; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1568783154',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ccpay',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-28T18:52:05+08:00 ] 27.157.76.160 GET ccpay.3ii.cn/admin
+[运行时间：0.032118s] [吞吐率：31.14req/s] [内存消耗：2,435.02kb] [文件加载：47]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cfb504f454c2-0ab1198188e468-38607501-1fa400-16cfb504f46ecb; PHPSESSID=uanulhn7fi9i3fjngpe1ov2vit; Hm_lvt_080836300300be57b7f34f4b3e97d911=1568044191,1568130022; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1568783154',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ccpay',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /www/wwwroot/epay.3ii.cn//public/404.html [ array (
+) ]
+[ info ] [ RUN ] app\admin\controller\Index->index[ /www/wwwroot/epay.3ii.cn/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/epay.3ii.cn//public/404.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-28T18:52:05+08:00 ] 27.157.76.160 GET ccpay.3ii.cn/admin
+[运行时间：0.028467s] [吞吐率：35.13req/s] [内存消耗：2,435.02kb] [文件加载：47]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cfb504f454c2-0ab1198188e468-38607501-1fa400-16cfb504f46ecb; PHPSESSID=uanulhn7fi9i3fjngpe1ov2vit; Hm_lvt_080836300300be57b7f34f4b3e97d911=1568044191,1568130022; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1568783154',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ccpay',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /www/wwwroot/epay.3ii.cn//public/404.html [ array (
+) ]
+[ info ] [ RUN ] app\admin\controller\Index->index[ /www/wwwroot/epay.3ii.cn/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/epay.3ii.cn//public/404.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-28T18:52:10+08:00 ] 27.157.76.160 GET ccpay.3ii.cn/iccpaysys
+[运行时间：0.031043s] [吞吐率：32.21req/s] [内存消耗：2,484.51kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cfb504f454c2-0ab1198188e468-38607501-1fa400-16cfb504f46ecb; PHPSESSID=uanulhn7fi9i3fjngpe1ov2vit; Hm_lvt_080836300300be57b7f34f4b3e97d911=1568044191,1568130022; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1568783154',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ /www/wwwroot/epay.3ii.cn/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ccpay',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /www/wwwroot/epay.3ii.cn/public/../application/admin/view/login/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-28T18:52:10+08:00 ] 27.157.76.160 GET ccpay.3ii.cn/captcha
+[运行时间：0.023723s] [吞吐率：42.15req/s] [内存消耗：2,149.91kb] [文件加载：40]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cfb504f454c2-0ab1198188e468-38607501-1fa400-16cfb504f46ecb; PHPSESSID=uanulhn7fi9i3fjngpe1ov2vit; Hm_lvt_080836300300be57b7f34f4b3e97d911=1568044191,1568130022; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1568783154',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://ccpay.3ii.cn/iccpaysys',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/wwwroot/epay.3ii.cn/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ccpay',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-28T23:24:17+08:00 ] 93.158.161.53 GET ccpay.3ii.cn/page.html
+[运行时间：0.028921s] [吞吐率：34.58req/s] [内存消耗：2,109.17kb] [文件加载：40]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'page',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'from' => 'support@search.yandex.ru',
+  'user-agent' => 'Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)',
+  'connection' => 'Keep-Alive',
+  'host' => 'ccpay.3ii.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

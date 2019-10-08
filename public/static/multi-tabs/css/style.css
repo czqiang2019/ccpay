@@ -1,0 +1,62 @@
+.mt-wrapper{
+    position: relative;
+    z-index: 1;
+}
+.mt-nav-bar {
+    width : 100%;
+    z-index: 200;
+    position: absolute;
+}
+.mt-nav-bar .mt-nav{
+    display: inline-block;
+    vertical-align: top;  /* remove vertical gap from display:inline */
+    margin-left: -1px;    /* remove 1px horizontal gap from display:inline */
+    margin-right : -4px;  /* remove 1px horizontal gap from display:inline and 3px ext padding-right, border-right from bootstrap nav*/
+}
+.mt-nav-panel{
+    overflow: hidden;
+}
+.mt-nav-panel ul{
+    width: 10000px;
+}
+.mt-tab-content{
+    height: 100%;
+}
+.mt-close-tab {
+    position: absolute;
+    font-size: 10px;
+    top: 2px;
+    right: 5px;
+    color: #94A6B0;
+    cursor: pointer;
+    display: none;
+}
+li:hover .mt-close-tab {
+    display: inline;
+}
+.mt-hidden-list .mt-close-tab {
+    display: none !important;
+}
+a{
+    cursor: pointer;
+}
+@media (max-width: 767px){
+    .mt-nav-bar {
+        display: none;
+    }
+    .mt-tab-content{
+        padding-top: 0 !important;
+    }
+}
+.mt-tab-content{
+    -webkit-overflow-scrolling:touch;
+    overflow:auto;
+}
+.mt-dragging-tab{
+    left: auto;
+    position: absolute !important;
+    z-index: 9999 !important;
+}
+.mt-dragging-tab > a{
+    background: #f39c12 !important;
+}

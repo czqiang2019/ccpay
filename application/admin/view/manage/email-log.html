@@ -1,0 +1,75 @@
+{include file="common/blank" /}
+<![endif]-->
+<title>公告管理</title>
+<style>
+    .list_order{
+        height: 24px!important;
+        line-height: 24px!important;
+        border: #FC6 solid 1px!important;
+    }
+</style>
+</head>
+<body>
+<nav class="breadcrumb">
+    <i class="Hui-iconfont">&#xe67f;</i>
+    首页 <span class="c-gray en">&gt;</span>
+    网站功能 <span class="c-gray en">&gt;</span>
+    邮件日志 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" >
+    <i class="Hui-iconfont">&#xe68f;</i>
+</a>
+</nav>
+<div class="page-container">
+    <div class="cl pd-5 bg-1 bk-gray mt-20">
+		<span class="l">
+			<a href="javascript:;" onclick="deloffall()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;
+        </i> 删除所有日志</a>
+        </span>
+    </div>
+    <div class="mt-20">
+        <table class="layui-table" id="list" lay-filter="list"></table>
+    </div>
+</div>
+<!--_footer 作为公共模版分离出去-->
+{include file="common/footer" /}
+<!--/_footer 作为公共模版分离出去-->
+
+<!--请在下方写此页面业务相关的脚本-->
+<link href="/static/lib/layui/css/layui.css" rel="stylesheet">
+<script type="text/javascript" src="/static/lib/layui/layui.js"></script>
+<script>
+    layui.use(['table','form'], function() {
+        var table = layui.table,form = layui.form,$ = layui.jquery;
+        var tableIn = table.render({
+            id: 'menu',
+            elem: '#list',
+            url: '{:url("emaillog")}',
+            method: 'post',
+            cellMinWidth: 80,
+            page:true,
+            cols: [[
+                {field: 'id', title: 'ID', width: 80, fixed: true},
+                {field: 'type', title: '类型', align: 'center'},
+                {field: 'content', title: '日志内容', align: 'center'},
+                {field: 'ctime', title: '时间', align: 'center'}
+            ]],
+            limit:10
+        });
+    })
+    function deloffall() {
+        layer.confirm('您确定要删除所有未支付订单吗？', function(index){
+            var loading = layer.load(1, {shade: [0.1, '#fff']});
+            $.post("{:url('admin/system/del')}",{type:'email',mode:'log'},function(res){
+                layer.close(loading);
+                if(res.code>0){
+                    layer.msg(res.msg,{time:1000,icon:1});
+                    location.reload();
+                }else{
+                    layer.msg(res.msg,{time:1000,icon:2});
+                }
+            });
+            layer.close(index);
+        });
+    }
+</script>
+</body>
+</html>

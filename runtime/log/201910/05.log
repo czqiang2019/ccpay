@@ -1,0 +1,853 @@
+---------------------------------------------------------------
+[ 2019-10-05T23:45:59+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570290363218&mid=1000&sign=cf66a8ad402e07db51c2e60de128811b
+[运行时间：0.038326s] [吞吐率：26.09req/s] [内存消耗：2,682.61kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cdn-loop' => 'cloudflare',
+  'cf-connecting-ip' => '120.34.161.209',
+  'user-agent' => 'okhttp/3.7.0',
+  'cf-visitor' => '{"scheme":"http"}',
+  'x-forwarded-proto' => 'http',
+  'cf-ray' => '5210869bc2d94374-SZV',
+  'x-forwarded-for' => '120.34.161.209',
+  'cf-ipcountry' => 'CN',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.pay.netchu.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1570290363218',
+  'mid' => '1000',
+  'sign' => 'cf66a8ad402e07db51c2e60de128811b',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-05T23:46:40+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570290403798&mid=1000&sign=fb098ee85fde654f00caf48dfa13be7b
+[运行时间：0.033593s] [吞吐率：29.77req/s] [内存消耗：2,682.66kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cdn-loop' => 'cloudflare',
+  'cf-connecting-ip' => '121.206.8.230',
+  'user-agent' => 'okhttp/3.7.0',
+  'cf-visitor' => '{"scheme":"http"}',
+  'x-forwarded-proto' => 'http',
+  'cf-ray' => '52108798e19b43e7-SZV',
+  'x-forwarded-for' => '121.206.8.230',
+  'cf-ipcountry' => 'CN',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.pay.netchu.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1570290403798',
+  'mid' => '1000',
+  'sign' => 'fb098ee85fde654f00caf48dfa13be7b',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-05T23:47:59+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570290483220&mid=1000&sign=361cadda0c9375d89bfb4e1a0674692f
+[运行时间：0.032120s] [吞吐率：31.13req/s] [内存消耗：2,682.66kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cdn-loop' => 'cloudflare',
+  'cf-connecting-ip' => '120.34.161.209',
+  'user-agent' => 'okhttp/3.7.0',
+  'cf-visitor' => '{"scheme":"http"}',
+  'x-forwarded-proto' => 'http',
+  'cf-ray' => '5210898956dc439f-SZV',
+  'x-forwarded-for' => '120.34.161.209',
+  'cf-ipcountry' => 'CN',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.pay.netchu.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1570290483220',
+  'mid' => '1000',
+  'sign' => '361cadda0c9375d89bfb4e1a0674692f',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-05T23:48:40+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570290523800&mid=1000&sign=7d410c883feb2e3f858805e970298b7a
+[运行时间：0.038588s] [吞吐率：25.91req/s] [内存消耗：2,682.66kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cdn-loop' => 'cloudflare',
+  'cf-connecting-ip' => '121.206.8.230',
+  'user-agent' => 'okhttp/3.7.0',
+  'cf-visitor' => '{"scheme":"http"}',
+  'x-forwarded-proto' => 'http',
+  'cf-ray' => '52108a86f60d43bd-SZV',
+  'x-forwarded-for' => '121.206.8.230',
+  'cf-ipcountry' => 'CN',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.pay.netchu.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1570290523800',
+  'mid' => '1000',
+  'sign' => '7d410c883feb2e3f858805e970298b7a',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-05T23:49:00+08:00 ] 183.192.179.16 POST api.pay.netchu.cn/appHeart?t%3D1570154801705%26mid%3D1000%26sign%3Da26d2f1407952383db2ec0794b196ee2
+[运行时间：0.031171s] [吞吐率：32.08req/s] [内存消耗：2,714.08kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cdn-loop' => 'cloudflare',
+  'cf-connecting-ip' => '183.192.179.16',
+  'user-agent' => 'Go-http-client/1.1',
+  'q-sub-business' => 'contentsecurity',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cf-visitor' => '{"scheme":"http"}',
+  'x-forwarded-proto' => 'http',
+  'content-length' => '0',
+  'cf-ray' => '52108b03e60d4386-SZV',
+  'x-forwarded-for' => '183.192.179.16',
+  'cf-ipcountry' => 'CN',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.pay.netchu.cn',
+)
+[ info ] [ PARAM ] array (
+  't=1570154801705&mid=1000&sign=a26d2f1407952383db2ec0794b196ee2' => '',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-05T23:49:59+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570290603222&mid=1000&sign=e67bbb6377039a0a0e743e8bd1dd3737
+[运行时间：0.032519s] [吞吐率：30.75req/s] [内存消耗：2,682.66kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cdn-loop' => 'cloudflare',
+  'cf-connecting-ip' => '120.34.161.209',
+  'user-agent' => 'okhttp/3.7.0',
+  'cf-visitor' => '{"scheme":"http"}',
+  'x-forwarded-proto' => 'http',
+  'cf-ray' => '52108c7756af43e1-SZV',
+  'x-forwarded-for' => '120.34.161.209',
+  'cf-ipcountry' => 'CN',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.pay.netchu.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1570290603222',
+  'mid' => '1000',
+  'sign' => 'e67bbb6377039a0a0e743e8bd1dd3737',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-05T23:50:40+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570290643802&mid=1000&sign=23dc6b97b14f8738ba506c87b42e9c4f
+[运行时间：0.034449s] [吞吐率：29.03req/s] [内存消耗：2,682.66kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cdn-loop' => 'cloudflare',
+  'cf-connecting-ip' => '121.206.8.230',
+  'user-agent' => 'okhttp/3.7.0',
+  'cf-visitor' => '{"scheme":"http"}',
+  'x-forwarded-proto' => 'http',
+  'cf-ray' => '52108d74d58943cf-SZV',
+  'x-forwarded-for' => '121.206.8.230',
+  'cf-ipcountry' => 'CN',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.pay.netchu.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1570290643802',
+  'mid' => '1000',
+  'sign' => '23dc6b97b14f8738ba506c87b42e9c4f',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-05T23:51:59+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570290723225&mid=1000&sign=f78b3fb72269a001a6fb72e5036bacf0
+[运行时间：0.031357s] [吞吐率：31.89req/s] [内存消耗：2,682.66kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cdn-loop' => 'cloudflare',
+  'cf-connecting-ip' => '121.206.8.230',
+  'user-agent' => 'okhttp/3.7.0',
+  'cf-visitor' => '{"scheme":"http"}',
+  'x-forwarded-proto' => 'http',
+  'cf-ray' => '52108f65458c4368-SZV',
+  'x-forwarded-for' => '121.206.8.230',
+  'cf-ipcountry' => 'CN',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.pay.netchu.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1570290723225',
+  'mid' => '1000',
+  'sign' => 'f78b3fb72269a001a6fb72e5036bacf0',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-05T23:52:40+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570290763804&mid=1000&sign=b03b628d3531cc83c1ea032ff7cdd336
+[运行时间：0.031301s] [吞吐率：31.95req/s] [内存消耗：2,682.66kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cdn-loop' => 'cloudflare',
+  'cf-connecting-ip' => '121.206.8.230',
+  'user-agent' => 'okhttp/3.7.0',
+  'cf-visitor' => '{"scheme":"http"}',
+  'x-forwarded-proto' => 'http',
+  'cf-ray' => '52109062e33143c3-SZV',
+  'x-forwarded-for' => '121.206.8.230',
+  'cf-ipcountry' => 'CN',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.pay.netchu.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1570290763804',
+  'mid' => '1000',
+  'sign' => 'b03b628d3531cc83c1ea032ff7cdd336',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-05T23:53:59+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570290843226&mid=1000&sign=f28b562437ead96923a9da3d8cecdc7f
+[运行时间：0.030616s] [吞吐率：32.66req/s] [内存消耗：2,682.66kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cdn-loop' => 'cloudflare',
+  'cf-connecting-ip' => '121.206.8.230',
+  'user-agent' => 'okhttp/3.7.0',
+  'cf-visitor' => '{"scheme":"http"}',
+  'x-forwarded-proto' => 'http',
+  'cf-ray' => '52109253353843f3-SZV',
+  'x-forwarded-for' => '121.206.8.230',
+  'cf-ipcountry' => 'CN',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.pay.netchu.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1570290843226',
+  'mid' => '1000',
+  'sign' => 'f28b562437ead96923a9da3d8cecdc7f',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-05T23:54:40+08:00 ] 120.34.161.209 GET api.pay.netchu.cn/appHeart?t=1570290883807&mid=1000&sign=ea91128c3585b744798a987fed3fc653
+[运行时间：0.029866s] [吞吐率：33.48req/s] [内存消耗：2,682.66kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cdn-loop' => 'cloudflare',
+  'cf-connecting-ip' => '120.34.161.209',
+  'user-agent' => 'okhttp/3.7.0',
+  'cf-visitor' => '{"scheme":"http"}',
+  'x-forwarded-proto' => 'http',
+  'cf-ray' => '52109350f32243c9-SZV',
+  'x-forwarded-for' => '120.34.161.209',
+  'cf-ipcountry' => 'CN',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.pay.netchu.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1570290883807',
+  'mid' => '1000',
+  'sign' => 'ea91128c3585b744798a987fed3fc653',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-05T23:55:59+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570290963229&mid=1000&sign=0ab6f239671998e7fab841555481726c
+[运行时间：0.036862s] [吞吐率：27.13req/s] [内存消耗：2,682.66kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cdn-loop' => 'cloudflare',
+  'cf-connecting-ip' => '121.206.8.230',
+  'user-agent' => 'okhttp/3.7.0',
+  'cf-visitor' => '{"scheme":"http"}',
+  'x-forwarded-proto' => 'http',
+  'cf-ray' => '52109541b31e4386-SZV',
+  'x-forwarded-for' => '121.206.8.230',
+  'cf-ipcountry' => 'CN',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.pay.netchu.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1570290963229',
+  'mid' => '1000',
+  'sign' => '0ab6f239671998e7fab841555481726c',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-05T23:56:40+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570291003808&mid=1000&sign=9240bc8e8e79bfeb669849cf2f33ea42
+[运行时间：0.031249s] [吞吐率：32.00req/s] [内存消耗：2,682.66kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cdn-loop' => 'cloudflare',
+  'cf-connecting-ip' => '121.206.8.230',
+  'user-agent' => 'okhttp/3.7.0',
+  'cf-visitor' => '{"scheme":"http"}',
+  'x-forwarded-proto' => 'http',
+  'cf-ray' => '5210963ef5594398-SZV',
+  'x-forwarded-for' => '121.206.8.230',
+  'cf-ipcountry' => 'CN',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.pay.netchu.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1570291003808',
+  'mid' => '1000',
+  'sign' => '9240bc8e8e79bfeb669849cf2f33ea42',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-05T23:57:29+08:00 ] 58.247.212.239 POST api.pay.netchu.cn/appHeart?t%3D1570154801705%26mid%3D1000%26sign%3Da26d2f1407952383db2ec0794b196ee2
+[运行时间：0.031696s] [吞吐率：31.55req/s] [内存消耗：2,714.08kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cdn-loop' => 'cloudflare',
+  'cf-connecting-ip' => '58.247.212.239',
+  'user-agent' => 'Go-http-client/1.1',
+  'q-sub-business' => 'contentsecurity',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cf-visitor' => '{"scheme":"http"}',
+  'x-forwarded-proto' => 'http',
+  'content-length' => '0',
+  'cf-ray' => '52109775911d3f4e-CGO',
+  'x-forwarded-for' => '58.247.212.239',
+  'cf-ipcountry' => 'CN',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.pay.netchu.cn',
+)
+[ info ] [ PARAM ] array (
+  't=1570154801705&mid=1000&sign=a26d2f1407952383db2ec0794b196ee2' => '',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-05T23:57:59+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570291083231&mid=1000&sign=5186d503d3cf93f8e568e94c53df15de
+[运行时间：0.030398s] [吞吐率：32.90req/s] [内存消耗：2,682.66kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cdn-loop' => 'cloudflare',
+  'cf-connecting-ip' => '121.206.8.230',
+  'user-agent' => 'okhttp/3.7.0',
+  'cf-visitor' => '{"scheme":"http"}',
+  'x-forwarded-proto' => 'http',
+  'cf-ray' => '5210982f42b643ed-SZV',
+  'x-forwarded-for' => '121.206.8.230',
+  'cf-ipcountry' => 'CN',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.pay.netchu.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1570291083231',
+  'mid' => '1000',
+  'sign' => '5186d503d3cf93f8e568e94c53df15de',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-05T23:58:40+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570291123810&mid=1000&sign=03a8bc936a6e5a09c586796a1a73ff5f
+[运行时间：0.034309s] [吞吐率：29.15req/s] [内存消耗：2,682.66kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cdn-loop' => 'cloudflare',
+  'cf-connecting-ip' => '121.206.8.230',
+  'user-agent' => 'okhttp/3.7.0',
+  'cf-visitor' => '{"scheme":"http"}',
+  'x-forwarded-proto' => 'http',
+  'cf-ray' => '5210992cf63343ed-SZV',
+  'x-forwarded-for' => '121.206.8.230',
+  'cf-ipcountry' => 'CN',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.pay.netchu.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1570291123810',
+  'mid' => '1000',
+  'sign' => '03a8bc936a6e5a09c586796a1a73ff5f',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-05T23:58:43+08:00 ] 183.192.179.16 POST api.pay.netchu.cn/appHeart?t%3D1570156201069%26mid%3D1000%26sign%3D2c259a6683593eb6a397cc02114d69e4
+[运行时间：0.030509s] [吞吐率：32.78req/s] [内存消耗：2,714.08kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cdn-loop' => 'cloudflare',
+  'cf-connecting-ip' => '183.192.179.16',
+  'user-agent' => 'Go-http-client/1.1',
+  'q-sub-business' => 'contentsecurity',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cf-visitor' => '{"scheme":"http"}',
+  'x-forwarded-proto' => 'http',
+  'content-length' => '0',
+  'cf-ray' => '5210994435eb4398-SZV',
+  'x-forwarded-for' => '183.192.179.16',
+  'cf-ipcountry' => 'CN',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.pay.netchu.cn',
+)
+[ info ] [ PARAM ] array (
+  't=1570156201069&mid=1000&sign=2c259a6683593eb6a397cc02114d69e4' => '',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-05T23:58:44+08:00 ] 58.247.212.239 POST api.pay.netchu.cn/appHeart?t%3D1570156201069%26mid%3D1000%26sign%3D2c259a6683593eb6a397cc02114d69e4
+[运行时间：0.029886s] [吞吐率：33.46req/s] [内存消耗：2,714.08kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cdn-loop' => 'cloudflare',
+  'cf-connecting-ip' => '58.247.212.239',
+  'user-agent' => 'Go-http-client/1.1',
+  'q-sub-business' => 'contentsecurity',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cf-visitor' => '{"scheme":"http"}',
+  'x-forwarded-proto' => 'http',
+  'content-length' => '0',
+  'cf-ray' => '5210994444173f4e-CGO',
+  'x-forwarded-for' => '58.247.212.239',
+  'cf-ipcountry' => 'CN',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.pay.netchu.cn',
+)
+[ info ] [ PARAM ] array (
+  't=1570156201069&mid=1000&sign=2c259a6683593eb6a397cc02114d69e4' => '',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-05T23:58:44+08:00 ] 182.254.52.17 POST api.pay.netchu.cn/appHeart?t%3D1570156201069%26mid%3D1000%26sign%3D2c259a6683593eb6a397cc02114d69e4
+[运行时间：0.029743s] [吞吐率：33.62req/s] [内存消耗：2,714.08kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cdn-loop' => 'cloudflare',
+  'cf-connecting-ip' => '182.254.52.17',
+  'user-agent' => 'Go-http-client/1.1',
+  'q-sub-business' => 'contentsecurity',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cf-visitor' => '{"scheme":"http"}',
+  'x-forwarded-proto' => 'http',
+  'content-length' => '0',
+  'cf-ray' => '52109944819c44dd-XIY',
+  'x-forwarded-for' => '182.254.52.17',
+  'cf-ipcountry' => 'CN',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.pay.netchu.cn',
+)
+[ info ] [ PARAM ] array (
+  't=1570156201069&mid=1000&sign=2c259a6683593eb6a397cc02114d69e4' => '',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-05T23:58:44+08:00 ] 182.108.46.202 POST api.pay.netchu.cn/appHeart?t%3D1570156201069%26mid%3D1000%26sign%3D2c259a6683593eb6a397cc02114d69e4
+[运行时间：0.041649s] [吞吐率：24.01req/s] [内存消耗：2,714.41kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cdn-loop' => 'cloudflare',
+  'cf-connecting-ip' => '182.108.46.202',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Go-http-client/1.1',
+  'q-sub-business' => 'contentsecurity',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cf-visitor' => '{"scheme":"http"}',
+  'x-forwarded-proto' => 'http',
+  'content-length' => '0',
+  'cf-ray' => '52109946463f43d5-SZV',
+  'x-forwarded-for' => '182.108.46.202',
+  'cf-ipcountry' => 'CN',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.pay.netchu.cn',
+)
+[ info ] [ PARAM ] array (
+  't=1570156201069&mid=1000&sign=2c259a6683593eb6a397cc02114d69e4' => '',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-05T23:58:44+08:00 ] 182.108.46.202 POST api.pay.netchu.cn/appHeart?t%3D1570156201069%26mid%3D1000%26sign%3D2c259a6683593eb6a397cc02114d69e4
+[运行时间：0.036621s] [吞吐率：27.31req/s] [内存消耗：2,714.41kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cdn-loop' => 'cloudflare',
+  'cf-connecting-ip' => '182.108.46.202',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Go-http-client/1.1',
+  'q-sub-business' => 'contentsecurity',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cf-visitor' => '{"scheme":"http"}',
+  'x-forwarded-proto' => 'http',
+  'content-length' => '0',
+  'cf-ray' => '5210994655c6439f-SZV',
+  'x-forwarded-for' => '182.108.46.202',
+  'cf-ipcountry' => 'CN',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.pay.netchu.cn',
+)
+[ info ] [ PARAM ] array (
+  't=1570156201069&mid=1000&sign=2c259a6683593eb6a397cc02114d69e4' => '',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-05T23:58:53+08:00 ] 182.254.52.17 POST api.pay.netchu.cn/appHeart?t%3D1570156201069%26mid%3D1000%26sign%3D2c259a6683593eb6a397cc02114d69e4
+[运行时间：0.030940s] [吞吐率：32.32req/s] [内存消耗：2,714.08kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cdn-loop' => 'cloudflare',
+  'cf-connecting-ip' => '182.254.52.17',
+  'user-agent' => 'Go-http-client/1.1',
+  'q-sub-business' => 'contentsecurity',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cf-visitor' => '{"scheme":"http"}',
+  'x-forwarded-proto' => 'http',
+  'content-length' => '0',
+  'cf-ray' => '52109981e7d044dd-XIY',
+  'x-forwarded-for' => '182.254.52.17',
+  'cf-ipcountry' => 'CN',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.pay.netchu.cn',
+)
+[ info ] [ PARAM ] array (
+  't=1570156201069&mid=1000&sign=2c259a6683593eb6a397cc02114d69e4' => '',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-05T23:59:59+08:00 ] 121.206.8.230 GET api.pay.netchu.cn/appHeart?t=1570291203233&mid=1000&sign=a95461ef3acec06bb9425865efdef00e
+[运行时间：0.034056s] [吞吐率：29.36req/s] [内存消耗：2,682.66kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/epay.3ii.cn/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'appHeart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cdn-loop' => 'cloudflare',
+  'cf-connecting-ip' => '121.206.8.230',
+  'user-agent' => 'okhttp/3.7.0',
+  'cf-visitor' => '{"scheme":"http"}',
+  'x-forwarded-proto' => 'http',
+  'cf-ray' => '52109b1d43344386-SZV',
+  'x-forwarded-for' => '121.206.8.230',
+  'cf-ipcountry' => 'CN',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'api.pay.netchu.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '1570291203233',
+  'mid' => '1000',
+  'sign' => 'a95461ef3acec06bb9425865efdef00e',
+)
+[ info ] [ RUN ] app\api\controller\Server->appHeart[ /www/wwwroot/epay.3ii.cn/application/api/controller/Server.php ]
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,111 @@
+---------------------------------------------------------------
+[ 2019-09-10T01:12:42+08:00 ] 59.60.132.100 GET ccpay.3ii.cn/admin
+[ error ] [0]模板文件不存在:/www/wwwroot/epay.3ii.cn/public/../application/404.html[/www/wwwroot/epay.3ii.cn/thinkphp/library/think/view/driver/Think.php:82]
+---------------------------------------------------------------
+[ 2019-09-10T01:12:43+08:00 ] 59.60.132.100 GET ccpay.3ii.cn/admin
+[ error ] [0]模板文件不存在:/www/wwwroot/epay.3ii.cn/public/../application/404.html[/www/wwwroot/epay.3ii.cn/thinkphp/library/think/view/driver/Think.php:82]
+---------------------------------------------------------------
+[ 2019-09-10T01:12:45+08:00 ] 59.60.132.100 GET ccpay.3ii.cn/admin
+[ error ] [0]模板文件不存在:/www/wwwroot/epay.3ii.cn/public/../application/404.html[/www/wwwroot/epay.3ii.cn/thinkphp/library/think/view/driver/Think.php:82]
+---------------------------------------------------------------
+[ 2019-09-10T01:13:03+08:00 ] 59.60.132.100 GET ccpay.3ii.cn/admin
+[ error ] [8]未定义变量: admin[/www/wwwroot/epay.3ii.cn/runtime/temp/c66c6a5c4438a4a0abc710ab9784a549.php:61]
+---------------------------------------------------------------
+[ 2019-09-10T01:13:05+08:00 ] 59.60.132.100 GET ccpay.3ii.cn/admin
+[ error ] [8]未定义变量: admin[/www/wwwroot/epay.3ii.cn/runtime/temp/c66c6a5c4438a4a0abc710ab9784a549.php:61]
+---------------------------------------------------------------
+[ 2019-09-10T01:13:32+08:00 ] 59.60.132.100 GET ccpay.3ii.cn/admin
+[ error ] [8]未定义变量: admin[/www/wwwroot/epay.3ii.cn/runtime/temp/c66c6a5c4438a4a0abc710ab9784a549.php:61]
+---------------------------------------------------------------
+[ 2019-09-10T01:13:53+08:00 ] 59.60.132.100 GET ccpay.3ii.cn/admin
+[ error ] [8]未定义变量: admin[/www/wwwroot/epay.3ii.cn/runtime/temp/c66c6a5c4438a4a0abc710ab9784a549.php:61]
+---------------------------------------------------------------
+[ 2019-09-10T01:13:54+08:00 ] 59.60.132.100 GET ccpay.3ii.cn/admin
+[ error ] [8]未定义变量: admin[/www/wwwroot/epay.3ii.cn/runtime/temp/c66c6a5c4438a4a0abc710ab9784a549.php:61]
+---------------------------------------------------------------
+[ 2019-09-10T01:15:32+08:00 ] 59.60.132.100 GET ccpay.3ii.cn/admin
+[ error ] [0]模板文件不存在:/404.html[/www/wwwroot/epay.3ii.cn/thinkphp/library/think/view/driver/Think.php:82]
+---------------------------------------------------------------
+[ 2019-09-10T01:16:13+08:00 ] 59.60.132.100 GET ccpay.3ii.cn/admin
+[ error ] [0]语法解析错误: syntax error, unexpected ''/public/404.html'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')'[/www/wwwroot/epay.3ii.cn/application/admin/controller/Base.php:37]
+---------------------------------------------------------------
+[ 2019-09-10T01:16:22+08:00 ] 59.60.132.100 GET ccpay.3ii.cn/admin
+[ error ] [0]语法解析错误: syntax error, unexpected '' . /public/404.html'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')'[/www/wwwroot/epay.3ii.cn/application/admin/controller/Base.php:37]
+---------------------------------------------------------------
+[ 2019-09-10T01:16:31+08:00 ] 59.60.132.100 GET ccpay.3ii.cn/admin
+[ error ] [8]未定义变量: admin[/www/wwwroot/epay.3ii.cn/runtime/temp/c66c6a5c4438a4a0abc710ab9784a549.php:61]
+---------------------------------------------------------------
+[ 2019-09-10T01:16:33+08:00 ] 59.60.132.100 GET ccpay.3ii.cn/admin
+[ error ] [8]未定义变量: admin[/www/wwwroot/epay.3ii.cn/runtime/temp/c66c6a5c4438a4a0abc710ab9784a549.php:61]
+---------------------------------------------------------------
+[ 2019-09-10T01:17:50+08:00 ] 59.60.132.100 GET ccpay.3ii.cn/admin
+[ error ] [8]未定义变量: admin[/www/wwwroot/epay.3ii.cn/runtime/temp/c66c6a5c4438a4a0abc710ab9784a549.php:61]
+---------------------------------------------------------------
+[ 2019-09-10T01:22:50+08:00 ] 125.79.14.217 GET ccpay.3ii.cn/admin
+[ error ] [0]致命错误: Class 'app\admin\controller\Session' not found[/www/wwwroot/epay.3ii.cn/application/admin/controller/Index.php:20]
+---------------------------------------------------------------
+[ 2019-09-10T01:22:52+08:00 ] 125.79.14.217 GET ccpay.3ii.cn/admin
+[ error ] [0]致命错误: Class 'app\admin\controller\Session' not found[/www/wwwroot/epay.3ii.cn/application/admin/controller/Index.php:20]
+---------------------------------------------------------------
+[ 2019-09-10T01:22:58+08:00 ] 125.79.14.217 GET ccpay.3ii.cn/admin/index/welcome
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'epay_3ii_cn.admin' doesn't exist[/www/wwwroot/epay.3ii.cn/thinkphp/library/think/db/Connection.php:385]
+---------------------------------------------------------------
+[ 2019-09-10T01:22:59+08:00 ] 125.79.14.217 GET ccpay.3ii.cn/admin/index/welcome
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'epay_3ii_cn.admin' doesn't exist[/www/wwwroot/epay.3ii.cn/thinkphp/library/think/db/Connection.php:385]
+---------------------------------------------------------------
+[ 2019-09-10T01:23:45+08:00 ] 125.79.14.217 GET ccpay.3ii.cn/admin/index/welcome
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'epay_3ii_cn.admin' doesn't exist[/www/wwwroot/epay.3ii.cn/thinkphp/library/think/db/Connection.php:385]
+---------------------------------------------------------------
+[ 2019-09-10T04:22:59+08:00 ] 59.36.119.226 GET api.3ii.cn/enQrcode?url%3Dapi.3ii.cn/1000/vrcdqy710dtg2t4j6r6lfu3kr6bv
+[ error ] [0]方法参数错误:url
+---------------------------------------------------------------
+[ 2019-09-10T14:23:30+08:00 ] 125.79.14.217 GET api.3ii.cn/appHeart?t=1568096618631&mid=1000&sign=a3a1c6780458070d9409de8cc7476083
+[ error ] [0]语法解析错误: syntax error, unexpected 'funciton' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+---------------------------------------------------------------
+[ 2019-09-10T14:23:31+08:00 ] 120.43.121.6 GET api.3ii.cn/createOrder/?mid=1002&payId=DDBH201909101423305701&type=1&price=38&param=%E4%BB%A3%E7%90%86%E5%8D%87%E7%BA%A7DDBH201909101423305701&isHtml=1&notifyUrl=http%3A%2F%2Fqqq.dshuju.cn%2Fpay%2Fpaydo&returnUrl=http%3A%2F%2Fqqq.dshuju.cn%2Fpay%2FpayResult&sign=12409ac3d0e168a437fdaa0e31fa1f62
+[ error ] [0]语法解析错误: syntax error, unexpected 'funciton' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+---------------------------------------------------------------
+[ 2019-09-10T14:23:35+08:00 ] 125.79.14.217 GET api.3ii.cn/appHeart?t=1568096623879&mid=1000&sign=67a02f3124fb1043fd87a870825f5e90
+[ error ] [0]语法解析错误: syntax error, unexpected 'funciton' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+---------------------------------------------------------------
+[ 2019-09-10T14:28:19+08:00 ] 125.79.14.217 GET api.3ii.cn/appHeart?t=1568096907959&mid=1000&sign=33eeec275138a8b9f761e5948a2b303f
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'mid，jkstate' in 'field list'
+---------------------------------------------------------------
+[ 2019-09-10T14:29:30+08:00 ] 125.79.14.217 GET api.3ii.cn/appHeart?t=1568096978636&mid=1000&sign=3ea196f662bc970030862d5360f6f07f
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'mid，jkstate' in 'field list'
+---------------------------------------------------------------
+[ 2019-09-10T14:29:35+08:00 ] 125.79.14.217 GET api.3ii.cn/appHeart?t=1568096983882&mid=1000&sign=09c0e778c9683051c8c6f58a50255bc2
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'mid，jkstate' in 'field list'
+---------------------------------------------------------------
+[ 2019-09-10T14:29:48+08:00 ] 59.60.132.100 GET api.3ii.cn/appHeart?t=1568096667955&mid=1000&sign=0db4189baa556356d288246c5211bd69
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'mid，jkstate' in 'field list'
+---------------------------------------------------------------
+[ 2019-09-10T14:30:19+08:00 ] 59.60.132.100 GET api.3ii.cn/appHeart?t=1568097027961&mid=1000&sign=327d11f24e72de62fd4a95394e2bcab8
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'mid，jkstate' in 'field list'[/www/wwwroot/epay.3ii.cn/thinkphp/library/think/db/Connection.php:385]
+---------------------------------------------------------------
+[ 2019-09-10T14:30:40+08:00 ] 59.60.132.100 GET api.3ii.cn/appHeart?t=1568096667955&mid=1000&sign=0db4189baa556356d288246c5211bd69
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'mid，jkstate' in 'field list'[/www/wwwroot/epay.3ii.cn/thinkphp/library/think/db/Connection.php:385]
+---------------------------------------------------------------
+[ 2019-09-10T14:30:58+08:00 ] 59.60.132.100 GET api.3ii.cn/appHeart?t=1568096667955&mid=1000&sign=0db4189baa556356d288246c5211bd69
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'mid，jkstate' in 'field list'[/www/wwwroot/epay.3ii.cn/thinkphp/library/think/db/Connection.php:385]
+---------------------------------------------------------------
+[ 2019-09-10T14:31:00+08:00 ] 59.60.132.100 GET api.3ii.cn/appHeart?t=1568096667955&mid=1000&sign=0db4189baa556356d288246c5211bd69
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'mid，jkstate' in 'field list'[/www/wwwroot/epay.3ii.cn/thinkphp/library/think/db/Connection.php:385]
+---------------------------------------------------------------
+[ 2019-09-10T14:51:38+08:00 ] 59.60.132.100 GET api.3ii.cn/createOrder/?mid=1002&payId=DDBH201909101423305701&type=1&price=38&param=%E4%BB%A3%E7%90%86%E5%8D%87%E7%BA%A7DDBH201909101423305701&isHtml=1&notifyUrl=http%3A%2F%2Fqqq.dshuju.cn%2Fpay%2Fpaydo&returnUrl=http%3A%2F%2Fqqq.dshuju.cn%2Fpay%2FpayResult&sign=12409ac3d0e168a437fdaa0e31fa1f62
+[ error ] [0]致命错误: Call to undefined function record_file_log()[/www/wwwroot/epay.3ii.cn/application/common.php:483]
+---------------------------------------------------------------
+[ 2019-09-10T18:10:29+08:00 ] 125.79.14.217 GET ccpay.3ii.cn/admin/index/welcome
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'epay_3ii_cn.admin' doesn't exist[/www/wwwroot/epay.3ii.cn/thinkphp/library/think/db/Connection.php:385]
+---------------------------------------------------------------
+[ 2019-09-10T18:14:27+08:00 ] 125.79.14.217 GET ccpay.3ii.cn/admin/system/base
+[ error ] [8]未定义数组索引: pay_mode[/www/wwwroot/epay.3ii.cn/runtime/temp/d6472e335f6d99560da8707fcf34b3f4.php:250]
+---------------------------------------------------------------
+[ 2019-09-10T23:40:21+08:00 ] 59.60.132.100 GET ccpay.3ii.cn/admin/index/welcome
+[ error ] [2]exec() has been disabled for security reasons[/www/wwwroot/epay.3ii.cn/application/admin/controller/Index.php:53]
+---------------------------------------------------------------
+[ 2019-09-10T23:46:14+08:00 ] 125.79.14.217 POST ccpay.3ii.cn/admin/system/update
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'epay_3ii_cn.box_pau_qrcode' doesn't exist[/www/wwwroot/epay.3ii.cn/thinkphp/library/think/db/Connection.php:385]
+---------------------------------------------------------------
+[ 2019-09-10T23:58:42+08:00 ] 125.79.14.217 GET ccpay.3ii.cn/admin/index/welcome
+[ error ] [2]exec() has been disabled for security reasons[/www/wwwroot/epay.3ii.cn/application/admin/controller/Index.php:53]

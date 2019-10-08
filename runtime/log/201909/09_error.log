@@ -1,0 +1,66 @@
+---------------------------------------------------------------
+[ 2019-09-09T15:56:34+08:00 ] 47.74.248.85 GET ccpay.3ii.cn/order/test
+[ error ] [0]语法解析错误: syntax error, unexpected '"/createOrder"' (T_CONSTANT_ENCAPSED_STRING)[/www/wwwroot/epay.3ii.cn/application/home/controller/Order.php:88]
+---------------------------------------------------------------
+[ 2019-09-09T15:59:21+08:00 ] 47.74.248.85 GET api.3ii.cn/pay/service/payinfo?orderId=201909091509244521
+[ error ] [0]语法解析错误: syntax error, unexpected ')', expecting variable (T_VARIABLE)[/www/wwwroot/epay.3ii.cn/runtime/temp/32905ad4bfa328f5f46bf88204cdf0a0.php:215]
+---------------------------------------------------------------
+[ 2019-09-09T16:07:33+08:00 ] 47.74.248.85 GET api.3ii.cn/appPush?t=1568016452453&mid=1000&type=1&price=0.1&sign=84fca1375bd838222ee751eb5926b871
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'qid' cannot be null[/www/wwwroot/epay.3ii.cn/thinkphp/library/think/db/Connection.php:453]
+---------------------------------------------------------------
+[ 2019-09-09T16:10:20+08:00 ] 47.74.248.85 GET api.3ii.cn/appPush?t=1568016619277&mid=1000&type=1&price=0.1&sign=d7b3e1cefa54737124210bcebb49d061
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'qid' cannot be null[/www/wwwroot/epay.3ii.cn/thinkphp/library/think/db/Connection.php:453]
+---------------------------------------------------------------
+[ 2019-09-09T16:25:26+08:00 ] 47.74.248.85 GET api.3ii.cn/appPush?t=1568017526580&mid=1000&type=1&price=0.1&sign=fe636d25720b492016c530f025e94aa0
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'qid' cannot be null[/www/wwwroot/epay.3ii.cn/thinkphp/library/think/db/Connection.php:453]
+---------------------------------------------------------------
+[ 2019-09-09T19:36:41+08:00 ] 47.74.248.85 GET ccpay.3ii.cn/enQrcode?url=
+[ error ] [0]Found empty contents[/www/wwwroot/epay.3ii.cn/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php:79]
+---------------------------------------------------------------
+[ 2019-09-09T19:36:45+08:00 ] 47.74.248.85 GET ccpay.3ii.cn/enQrcode?url=
+[ error ] [0]Found empty contents[/www/wwwroot/epay.3ii.cn/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php:79]
+---------------------------------------------------------------
+[ 2019-09-09T19:38:18+08:00 ] 47.74.248.85 GET ccpay.3ii.cn/enQrcode?url=
+[ error ] [0]Found empty contents[/www/wwwroot/epay.3ii.cn/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php:79]
+---------------------------------------------------------------
+[ 2019-09-09T19:38:20+08:00 ] 47.74.248.85 GET ccpay.3ii.cn/enQrcode?url=
+[ error ] [0]Found empty contents[/www/wwwroot/epay.3ii.cn/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php:79]
+---------------------------------------------------------------
+[ 2019-09-09T19:43:07+08:00 ] 47.74.248.85 GET ccpay.3ii.cn/enQrcode?url=
+[ error ] [0]Found empty contents[/www/wwwroot/epay.3ii.cn/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php:79]
+---------------------------------------------------------------
+[ 2019-09-09T19:43:30+08:00 ] 47.74.248.85 GET ccpay.3ii.cn/enQrcode?url=
+[ error ] [0]Found empty contents[/www/wwwroot/epay.3ii.cn/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php:79]
+---------------------------------------------------------------
+[ 2019-09-09T19:43:34+08:00 ] 47.74.248.85 POST ccpay.3ii.cn/home/pay/recharge/types/1
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'level' cannot be null[/www/wwwroot/epay.3ii.cn/thinkphp/library/think/db/Connection.php:453]
+---------------------------------------------------------------
+[ 2019-09-09T19:45:19+08:00 ] 47.74.248.85 GET ccpay.3ii.cn/enQrcode?url=
+[ error ] [0]Found empty contents[/www/wwwroot/epay.3ii.cn/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php:79]
+---------------------------------------------------------------
+[ 2019-09-09T19:45:55+08:00 ] 47.74.248.85 GET ccpay.3ii.cn/enQrcode?url=
+[ error ] [0]Found empty contents[/www/wwwroot/epay.3ii.cn/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php:79]
+---------------------------------------------------------------
+[ 2019-09-09T23:11:48+08:00 ] 47.74.248.85 GET ccpay.3ii.cn/enQrcode?url=
+[ error ] [0]Found empty contents[/www/wwwroot/epay.3ii.cn/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php:79]
+---------------------------------------------------------------
+[ 2019-09-09T23:13:19+08:00 ] 47.74.248.85 GET ccpay.3ii.cn/enQrcode?url=
+[ error ] [0]Found empty contents[/www/wwwroot/epay.3ii.cn/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php:79]
+---------------------------------------------------------------
+[ 2019-09-09T23:14:50+08:00 ] 47.74.248.85 GET ccpay.3ii.cn/enQrcode?url=
+[ error ] [0]Found empty contents[/www/wwwroot/epay.3ii.cn/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php:79]
+---------------------------------------------------------------
+[ 2019-09-09T23:16:07+08:00 ] 47.74.248.85 GET ccpay.3ii.cn/enQrcode?url=
+[ error ] [0]Found empty contents[/www/wwwroot/epay.3ii.cn/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php:79]
+---------------------------------------------------------------
+[ 2019-09-09T23:16:32+08:00 ] 47.74.248.85 GET ccpay.3ii.cn/enQrcode?url=
+[ error ] [0]Found empty contents[/www/wwwroot/epay.3ii.cn/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php:79]
+---------------------------------------------------------------
+[ 2019-09-09T23:32:34+08:00 ] 47.74.248.85 GET ccpay.3ii.cn/enQrcode?url=
+[ error ] [0]Found empty contents[/www/wwwroot/epay.3ii.cn/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php:79]
+---------------------------------------------------------------
+[ 2019-09-09T23:49:51+08:00 ] 47.74.248.85 GET ccpay.3ii.cn/admin/index/welcome
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'epay_3ii_cn.admin' doesn't exist[/www/wwwroot/epay.3ii.cn/thinkphp/library/think/db/Connection.php:385]
+---------------------------------------------------------------
+[ 2019-09-09T23:56:25+08:00 ] 47.74.248.85 GET api.3ii.cn/enQrcode?url=
+[ error ] [0]Found empty contents[/www/wwwroot/epay.3ii.cn/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php:79]

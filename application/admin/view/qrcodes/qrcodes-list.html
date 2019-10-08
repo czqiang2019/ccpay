@@ -1,0 +1,148 @@
+{include file="common/blank" /}
+<![endif]-->
+<title>收款码管理</title>
+<style>
+    .list_order{
+        height: 24px!important;
+        line-height: 24px!important;
+        border: #FC6 solid 1px!important;
+    }
+</style>
+</head>
+<body>
+<nav class="breadcrumb">
+    <i class="Hui-iconfont">&#xe67f;</i>
+    首页 <span class="c-gray en">&gt;</span>
+    收款码管理 <span class="c-gray en">&gt;</span>
+    收款码列表 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" >
+    <i class="Hui-iconfont">&#xe68f;</i>
+</a>
+</nav>
+<div class="page-container">
+    <div class="text-c">
+        日期范围：
+        <input type="text" id="logmin" name="logmin" class="input-text Wdate" style="width:120px;" readonly="">
+        -
+        <input type="text" id="logmax" name="logmax" class="input-text Wdate" style="width:120px;" readonly="">
+        <input type="text" class="input-text" style="width:250px" placeholder="输入商户ID" id="keyword" name="keyword">
+        <button type="button" class="btn btn-success radius" id="search" name="search"><i class="Hui-iconfont">&#xe665;</i> 搜订单</button>
+    </div>
+    <div class="mt-20">
+        <table class="layui-table" id="list" lay-filter="list"></table>
+    </div>
+</div>
+<!--_footer 作为公共模版分离出去-->
+{include file="common/footer" /}
+<!--/_footer 作为公共模版分离出去-->
+
+<!--请在下方写此页面业务相关的脚本-->
+<link href="/static/lib/layui/css/layui.css" rel="stylesheet">
+<script type="text/javascript" src="/static/lib/layui/layui.js"></script>
+<script type="text/html" id="qrcode">
+    <img src="{{d.qrcode}}" height="40" lay-event="qrcode">
+</script>
+<script type="text/html" id="open">
+    <input type="checkbox" name="status" value="{{d.id}}" lay-skin="switch" lay-text="启动|禁用" lay-filter="open" {{ d.status == 0 ? 'checked' : '' }}>
+</script>
+<script type="text/html" id="action">
+    <a class="btn btn-warning size-MINI radius" lay-event="del">删除</a>
+</script>
+<script>
+    layui.use(['table','form','laydate'], function() {
+        var table = layui.table,form = layui.form,$ = layui.jquery, laydate = layui.laydate;
+        //日期范围
+        laydate.render({
+            elem: '#logmin'
+            ,type: 'date'
+            ,done: function(value, date, startDate){
+            }
+        });
+        laydate.render({
+            elem: '#logmax'
+            ,type: 'date'
+            ,done: function(value, date, endDate){
+            }
+        });
+        var tableIn = table.render({
+            id: 'product',
+            elem: '#list',
+            url: '{:url("index")}',
+            method: 'post',
+            cellMinWidth: 80,
+            totalRow: true,
+            page:true,
+            cols: [[
+                {field: 'id', title: 'ID', width: 80, fixed: true},
+                {field: 'mid', title: '商户ID', width:100 , align: 'center'},
+                {field: 'qrcode', title: '收款码', width:100, align: 'center', toolbar: '#qrcode'},
+                {field: 'pay_url', title: '收款链接', align: 'center'},
+                {field: 'type', title: '收款类型', width:100 , align: 'center',templet: function(d){
+                    if (d.type=="2"){
+                        return '<span class="layui-btn layui-btn-xs layui-btn-normal">支付宝</span>';
+                    }else if (d.type=="1"){
+                        return '<span class="btn btn-success size-MINI radius">微信</span>';
+                    }else{
+                        return '<span class="layui-btn layui-btn-xs layui-btn-warm">QQ</span>';
+                    }
+                }},
+                {field: 'price', align: 'center', title: '固定金额',width:120},
+                {field: 'record', align: 'center', title: '今日收款',width:120,totalRow: true},
+                {field: 'add_time', align: 'center', width:200, title: '创建时间'},
+                {field: 'status', align: 'center', width:120, title: '状态',toolbar: '#open'},
+                {field: 'remark', align: 'center', width:200, title: '备注'},
+                {width: 80, align: 'center', toolbar: '#action'}
+            ]],
+            limit:90
+        });
+        //搜索
+        $('#search').on('click', function () {
+            var keyword = $('#keyword').val();
+            var logmin = $('#logmin').val();
+            var logmax = $('#logmax').val();
+
+            tableIn.reload({ page: {page: 1}, where: {keyword: keyword,logmin:logmin,logmax:logmax}});
+        });
+        table.on('tool(list)', function(obj) {
+            var data = obj.data;
+            if (obj.event === 'del'){
+                var type = 'pay_qrcode';
+                layer.confirm('您确定要删除该收款码吗？', function(index){
+                    var loading = layer.load(1, {shade: [0.1, '#fff']});
+                    $.post("{:url('admin/system/del')}",{id:data.id,type:type},function(res){
+                        layer.close(loading);
+                        if(res.code>0){
+                            layer.msg(res.msg,{time:1000,icon:1});
+                            tableIn.reload();
+                        }else{
+                            layer.msg('操作失败！',{time:1000,icon:2});
+                        }
+                    });
+                    layer.close(index);
+                });
+            }else if (obj.event === 'qrcode'){
+                layer.open({
+                    offset: 'auto',
+                    title:'查看收款码',
+                    content: '<img src="' + data.qrcode + '" width="300">',
+                })
+            }
+        });
+        form.on('switch(open)', function(obj){
+            loading =layer.load(1, {shade: [0.1,'#fff']});
+            var id = this.value;
+            var status = obj.elem.checked===true?0:1;
+            $.post('{:url("system/update")}',{id:id,status:status,type:'pay_qrcode'},function (res) {
+                layer.close(loading);
+                if (res.code == 1) {
+                    layer.msg(res.msg,{time:1000,icon:1});
+                    tableIn.reload();
+                }else{
+                    layer.msg(res.msg,{time:1000,icon:2});
+                    return false;
+                }
+            })
+        });
+    })
+</script>
+</body>
+</html>

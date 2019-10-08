@@ -1,0 +1,6 @@
+---------------------------------------------------------------
+[ 2019-09-13T08:51:54+08:00 ] 125.79.14.234 GET ccpay.3ii.cn/admin/index/welcome
+[ error ] [2]exec() has been disabled for security reasons[/www/wwwroot/epay.3ii.cn/application/admin/controller/Index.php:53]
+---------------------------------------------------------------
+[ 2019-09-13T14:12:39+08:00 ] 117.29.243.249 GET ccpay.3ii.cn/admin/index/welcome
+[ error ] [2]exec() has been disabled for security reasons[/www/wwwroot/epay.3ii.cn/application/admin/controller/Index.php:53]

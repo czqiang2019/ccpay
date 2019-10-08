@@ -1,0 +1,51 @@
+---------------------------------------------------------------
+[ 2019-09-11T00:04:29+08:00 ] 59.60.132.100 POST ccpay.3ii.cn/admin/system/update
+[ error ] [0]致命错误: Call to undefined method app\admin\controller\System::uid()[/www/wwwroot/epay.3ii.cn/application/admin/controller/System.php:101]
+---------------------------------------------------------------
+[ 2019-09-11T00:04:39+08:00 ] 59.60.132.100 POST ccpay.3ii.cn/admin/system/update
+[ error ] [0]致命错误: Call to undefined method app\admin\controller\System::uid()[/www/wwwroot/epay.3ii.cn/application/admin/controller/System.php:101]
+---------------------------------------------------------------
+[ 2019-09-11T00:06:46+08:00 ] 59.60.132.100 POST ccpay.3ii.cn/admin/system/update
+[ error ] [0]致命错误: Call to undefined method app\admin\controller\System::uid()[/www/wwwroot/epay.3ii.cn/application/admin/controller/System.php:101]
+---------------------------------------------------------------
+[ 2019-09-11T00:07:07+08:00 ] 59.60.132.100 POST ccpay.3ii.cn/admin/system/update
+[ error ] [8]未定义变量: res[/www/wwwroot/epay.3ii.cn/application/admin/controller/System.php:91]
+---------------------------------------------------------------
+[ 2019-09-11T00:08:24+08:00 ] 125.79.14.217 GET ccpay.3ii.cn/admin/index/welcome
+[ error ] [2]exec() has been disabled for security reasons[/www/wwwroot/epay.3ii.cn/application/admin/controller/Index.php:53]
+---------------------------------------------------------------
+[ 2019-09-11T00:28:35+08:00 ] 59.60.132.100 GET ccpay.3ii.cn/admin/index/welcome
+[ error ] [2]exec() has been disabled for security reasons[/www/wwwroot/epay.3ii.cn/application/admin/controller/Index.php:53]
+---------------------------------------------------------------
+[ 2019-09-11T02:29:44+08:00 ] 125.79.14.217 GET ccpay.3ii.cn/admin/index/welcome
+[ error ] [2]exec() has been disabled for security reasons[/www/wwwroot/epay.3ii.cn/application/admin/controller/Index.php:53]
+---------------------------------------------------------------
+[ 2019-09-11T12:48:23+08:00 ] 125.79.14.217 GET ccpay.3ii.cn/admin/index/welcome
+[ error ] [2]exec() has been disabled for security reasons[/www/wwwroot/epay.3ii.cn/application/admin/controller/Index.php:53]
+---------------------------------------------------------------
+[ 2019-09-11T13:04:29+08:00 ] 125.79.14.217 GET ccpay.3ii.cn/admin/index/welcome
+[ error ] [2]exec() has been disabled for security reasons[/www/wwwroot/epay.3ii.cn/application/admin/controller/Index.php:53]
+---------------------------------------------------------------
+[ 2019-09-11T13:33:00+08:00 ] 125.79.14.217 GET ccpay.3ii.cn/admin/index/welcome
+[ error ] [2]exec() has been disabled for security reasons[/www/wwwroot/epay.3ii.cn/application/admin/controller/Index.php:53]
+---------------------------------------------------------------
+[ 2019-09-11T16:03:42+08:00 ] 59.60.132.100 GET ccpay.3ii.cn/admin/index/welcome
+[ error ] [2]exec() has been disabled for security reasons[/www/wwwroot/epay.3ii.cn/application/admin/controller/Index.php:53]
+---------------------------------------------------------------
+[ 2019-09-11T16:03:44+08:00 ] 59.60.132.100 GET ccpay.3ii.cn/admin/index/welcome
+[ error ] [2]exec() has been disabled for security reasons[/www/wwwroot/epay.3ii.cn/application/admin/controller/Index.php:53]
+---------------------------------------------------------------
+[ 2019-09-11T18:14:14+08:00 ] 47.74.248.85 GET ccpay.3ii.cn/admin/index/welcome
+[ error ] [2]exec() has been disabled for security reasons[/www/wwwroot/epay.3ii.cn/application/admin/controller/Index.php:53]
+---------------------------------------------------------------
+[ 2019-09-11T18:14:16+08:00 ] 47.74.248.85 GET ccpay.3ii.cn/admin/index/welcome
+[ error ] [2]exec() has been disabled for security reasons[/www/wwwroot/epay.3ii.cn/application/admin/controller/Index.php:53]
+---------------------------------------------------------------
+[ 2019-09-11T18:15:26+08:00 ] 47.74.248.85 GET ccpay.3ii.cn/admin/index/welcome
+[ error ] [2]exec() has been disabled for security reasons[/www/wwwroot/epay.3ii.cn/application/admin/controller/Index.php:53]
+---------------------------------------------------------------
+[ 2019-09-11T20:55:43+08:00 ] 47.74.248.85 GET ccpay.3ii.cn/admin/index/welcome
+[ error ] [2]exec() has been disabled for security reasons[/www/wwwroot/epay.3ii.cn/application/admin/controller/Index.php:53]
+---------------------------------------------------------------
+[ 2019-09-11T20:57:19+08:00 ] 120.43.121.6 GET api.3ii.cn/createOrder/?mid=1002&payId=DDBH201909112057141012&type=1&price=38&param=%E4%BB%A3%E7%90%86%E5%8D%87%E7%BA%A7DDBH201909112057141012&isHtml=1&notifyUrl=http%3A%2F%2Fqqq.dshuju.cn%2Fpay%2Fpaydo&returnUrl=http%3A%2F%2Fqqq.dshuju.cn%2Fpay%2FpayResult&sign=734acdaed456ea7d191e3aeb9fd6a638
+[ error ] [0]致命错误: Call to undefined function record_file_log()[/www/wwwroot/epay.3ii.cn/application/common.php:482]

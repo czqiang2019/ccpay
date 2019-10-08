@@ -1,0 +1,61 @@
+{include file="common/admin_header" /}
+<body>
+<!-- 顶部开始 -->
+<div class="container">
+    <div class="logo"><a href="{:get_sys('site_url')}">{:get_sys('site_name')}</a></div>
+    <div class="left_open">
+        <i title="展开左侧栏" class="iconfont">&#xe699;</i>
+    </div>
+    <ul class="layui-nav left fast-add" lay-filter="">
+        <li class="layui-nav-item">
+            <a href="javascript:;">+新增</a>
+            <dl class="layui-nav-child"> <!-- 二级菜单 -->
+                <dd><a onClick="x_admin_show('添加微信收款码','{:url('/qrcodes/addQrcode/1')}',600,450)"><i class="iconfont">&#xe6a2;</i>微信收款码</a></dd>
+                <dd><a onClick="x_admin_show('添加支付宝收款码','{:url('/qrcodes/addQrcode/2')}',600,450)"><i class="iconfont">&#xe6a8;</i>支付宝收款码</a></dd>
+                <dd><a onClick="x_admin_show('支付测试','{:url('/order/test')}',600,400)"><i class="iconfont">&#xe6b8;</i>支付测试</a></dd>
+            </dl>
+        </li>
+    </ul>
+    <ul class="layui-nav right" lay-filter="">
+        <li class="layui-nav-item"><a onClick="x_admin_show('商户充值','{:url('pay/recharge?types=1')}',600,450)">余额：¥{$user.money} 充值</a></li>
+        <li class="layui-nav-item"><a onClick="x_admin_show('升级/续费套餐','{:url('pay/recharge?types=2')}',600,450)"><span style="color:#fff">{$user.exp_time == null ? "" : get_level_name($user.level) . "到期时间：" . date('Y-m-d',$user.exp_time)}</span></a></li>
+        <li class="layui-nav-item">
+            <a href="javascript:;">{$user.tel}（{:get_level_name($user.level)}）</a>
+            <dl class="layui-nav-child"> <!-- 二级菜单 -->
+                <dd><a onClick="x_admin_show('升级/续费套餐','{:url('pay/recharge?types=2')}',600,450)">升级/续费套餐</a></dd>
+                <dd><a onClick="x_admin_show('个人信息','{:url('/user/info')}',600,650)">个人信息</a></dd>
+                <dd><a href="{:url('/login')}">切换帐号</a></dd>
+                <dd><a href="{:url('logout')}">退出</a></dd>
+            </dl>
+        </li>
+        <li class="layui-nav-item to-index"><a href="{:get_sys('site_url')}">前台首页</a></li>
+    </ul>
+
+</div>
+<!-- 顶部结束 -->
+<!-- 中部开始 -->
+{include file="common/menu" /}
+<!-- 右侧主体开始 -->
+<div class="page-content">
+    <div class="layui-tab tab" lay-filter="xbs_tab" lay-allowclose="false">
+        <ul class="layui-tab-title">
+            <li class="home"><i class="layui-icon">&#xe68e;</i>我的桌面</li>
+        </ul>
+        <div class="layui-tab-content">
+            <div class="layui-tab-item layui-show">
+                <iframe src="{:url('main')}" frameborder="0" scrolling="yes" class="x-iframe"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="page-content-bg"></div>
+{include file="common/admin_footer" /}
+<!-- 右侧主体结束 -->
+<!-- 中部结束 -->
+<!-- 底部开始 -->
+<!--<div class="footer">
+    <div class="copyright">Copyright ©2019 L-admin v2.3 All Rights Reserved</div>
+</div>-->
+<!-- 底部结束 -->
+</body>
+</html>
