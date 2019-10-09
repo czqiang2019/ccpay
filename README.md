@@ -20,4 +20,4 @@ QQ群：281911918 加群获取更多服务
 
 ![后台截图](https://github.com/iboxun/ccpay/blob/master/upload/WX20191008-183548.png)
 
-![后台截图](https://github.com/iboxun/ccpay/blob/master/upload/WX20191008-183514.png)
+![后台截图](https://github.com/iboxun/ccpay/blob/master/upload/WX20191008-183620.png)
