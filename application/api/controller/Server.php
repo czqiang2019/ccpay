@@ -330,7 +330,6 @@ class Server extends Controller
         return array("code"=>$code,"msg"=>$msg,"data"=>$data);
     }
     public function send_email($email,$txt=null){
-        //$address = "409991991@qq.com";
         $content = get_sys('site_name') . '提醒您：系统检测到您的监控端已离线，请检查挂机状态！' . $txt;
         $res = sendMail($email,get_sys('site_engname') . '监控端离线提醒',$content);
         if($res){
