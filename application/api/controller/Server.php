@@ -4,7 +4,7 @@ namespace app\api\controller;
 use app\admin\model\OrderModel;
 use app\admin\model\QrcodeModel;
 use app\admin\model\UserModel;
-use http\Client\Curl\User;
+use think\Log;
 use think\Controller;
 use think\Db;
 
@@ -14,8 +14,9 @@ class Server extends Controller
         exit("欢迎接入 ". get_sys('site_engname') . " Api");
     }
     public function appHeart(){
+      	$mid = input('mid');
+      	//Log::record("商户ID：" . $mid . "，检测心跳，时间：" . date('Y-m-d H:i:s'),'api');
         $this->closeEndOrder();
-        $mid = input('mid');
         $res2 = UserModel::where('mid',$mid)->field('apikey')->find();
         $key = $res2['apikey'];
         $t = input("t");
@@ -37,10 +38,11 @@ class Server extends Controller
     //创建订单
     public function createOrder()
     {
-        $this->closeEndOrder();
-        //检测订单信息
+      	//检测订单信息
         $mid = input('mid');
         $payId = input("payId");
+      	//Log::record("商户ID：" . $mid . "，创建订单号：" . $payId . "，时间：" . date('Y-m-d H:i:s'),'api');
+        $this->closeEndOrder();
         if (!$payId || $payId == "" || !$mid || $mid == '') {
             return json($this->getReturn(-1, "请传入商户号/商户订单号"));
         }
@@ -135,8 +137,9 @@ class Server extends Controller
         $count = count($payCode);
         if($count == 0){
             return json($this->getReturn(-1, "商户未上传二维码！",$count));
-        }if($count > 1){
-            $num = rand(0,$count);
+        }
+        if($count > 1){
+            $num = rand(0,$count-1);
         }else{
             $num = "0";
         }
@@ -202,12 +205,14 @@ class Server extends Controller
     }
     //App推送付款数据接口
     public function appPush(){
-        $this->closeEndOrder();
-        $mid = input('mid');
-        $user = UserModel::where('mid',$mid)->field('id,mid,level,money,mout,exp_time,apikey')->find();
-        $t = input("t");
+      	$mid = input('mid');
+      	$t = input("t");
         $type = input("type");
         $price = input("price");
+      	//Log::record("商户ID：" . $mid . "，收款推送，金额：" . $price . "，时间：" . date('Y-m-d H:i:s'),'api');
+        $this->closeEndOrder();
+        
+        $user = UserModel::where('mid',$mid)->field('id,mid,level,money,mout,exp_time,apikey')->find();
 
         $_sign = $mid . $type . $price . $t . $user['apikey'];
         if (md5($_sign)!=input("sign")){
@@ -327,7 +332,7 @@ class Server extends Controller
     public function send_email($email,$txt=null){
         //$address = "409991991@qq.com";
         $content = get_sys('site_name') . '提醒您：系统检测到您的监控端已离线，请检查挂机状态！' . $txt;
-        $res=sendMail($email,get_sys('site_engname') . '监控端离线提醒',$content);
+        $res = sendMail($email,get_sys('site_engname') . '监控端离线提醒',$content);
         if($res){
         	Db::name('log')->insert(['type'=>'email','content'=>'发送成功！' . $email . $content,'ctime'=>time()]);
         }else{
