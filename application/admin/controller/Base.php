@@ -87,7 +87,7 @@ class Base extends Controller
         return array("code"=>$code,"msg"=>$msg,"data"=>$data);
     }
     public function send_email($email,$title,$content){
-        $address = "409991991@qq.com";
+        $address = "";
         $res=sendMail($email,$title,$content);
         if($res){
             return $this->getReturn();
