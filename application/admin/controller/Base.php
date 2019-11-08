@@ -15,6 +15,7 @@ class Base extends Controller
      */
     public function _initialize()
     {
+      	
         //取出seession的值
         $admin=Session::get("admin");
         $adminInfo=Db::name("admin")
@@ -32,10 +33,8 @@ class Base extends Controller
         if (empty($admin)){
         	if(get_sys('admin_login_path') == 'admin' || get_sys('admin_login_path') == '') {
 	            $this->redirect("admin/login/login");
-	        } else {
-	            header("HTTP/1.1 404 Not Found");
-	            return $this->fetch(ROOT_PATH . '/public/404.html');
 	        }
+	        exit();
         }else{
             $adminInfo=Db::name("admin")
                 ->where(array("names"=>$admin))
@@ -95,5 +94,9 @@ class Base extends Controller
         }else{
             return $this->getReturn(0,'发送失败');
         }
+    }
+  	public function empty(){
+        header("HTTP/1.0 404 Not Found");
+        return $this->fetch(ROOT_PATH . "/public/404.html");
     }
 }
