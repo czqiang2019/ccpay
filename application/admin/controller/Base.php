@@ -95,7 +95,7 @@ class Base extends Controller
             return $this->getReturn(0,'发送失败');
         }
     }
-  	public function empty(){
+  	function _empty(){
         header("HTTP/1.0 404 Not Found");
         return $this->fetch(ROOT_PATH . "/public/404.html");
     }
