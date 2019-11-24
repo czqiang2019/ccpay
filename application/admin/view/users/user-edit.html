@@ -62,6 +62,24 @@
 			</div>
 		</div>
 		<div class="layui-form-item">
+			<label class="layui-form-label">过期时间</label>
+			<div class="layui-input-4">
+				<input type="text" name="exp_time" id="date" value="{$data.exp_time|date="Y-m-d",###}" placeholder="请选择套餐过期时间" class="layui-input">
+			</div>
+		</div>
+		<div class="layui-form-item">
+			<label class="layui-form-label">余额</label>
+			<div class="layui-input-4">
+				<input type="text" name="money" value="{$data.money}" placeholder="请输入余额" class="layui-input">
+			</div>
+		</div>
+		<div class="layui-form-item">
+			<label class="layui-form-label">费率</label>
+			<div class="layui-input-4">
+				<input type="text" name="mout" value="{$data.mout}" placeholder="请输入商户费率" class="layui-input">
+			</div>
+		</div>
+		<div class="layui-form-item">
 			<label class="layui-form-label">状态</label>
 			<div class="layui-input-block">
 				<input type="radio" name="status" value="0" {if ($data.status == 0)}checked{/if} title="启用">
@@ -82,9 +100,8 @@
 <link href="/static/lib/layui/css/layui.css" media="all" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="/static/lib/layui/layui.js"></script>
 <script>
-	var ue = UE.getEditor('editor');
-	layui.use(['form', 'layer','colorpicker'], function () {
-		var form = layui.form, layer = layui.layer,$= layui.jquery,colorpicker = layui.colorpicker;
+	layui.use(['form', 'layer','laydate'], function () {
+		var form = layui.form, layer = layui.layer,$= layui.jquery, laydate = layui.laydate;
 		form.on('submit(submit)', function (data) {
 			loading =layer.load(1, {shade: [0.1,'#fff']});
 			$.post("", data.field, function (res) {
@@ -100,24 +117,11 @@
 				}
 			});
 		});
-		colorpicker.render({
-			elem: '#test-form'
-			,color: '#1c97f5'
-			,done: function(color){
-				$('#test-form-input').val(color);
+		laydate.render({
+			elem: '#date'
+			,type: 'date'
+			,done: function(value, date, startDate){
 			}
-		});
-		//RGB 、RGBA
-		colorpicker.render({
-			elem: '#test3'
-			,color: 'rgb(68,66,66)'
-			,format: 'rgb' //默认为 hex
-		});
-		colorpicker.render({
-			elem: '#test4'
-			,color: 'rgba(68,66,66,0.5)'
-			,format: 'rgb'
-			,alpha: true //开启透明度滑块
 		});
 	});
 </script>
