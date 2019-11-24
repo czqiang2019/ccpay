@@ -97,7 +97,8 @@ class Users extends Base
                 $data['password'] = pswCrypt($data['password']);
             }
             $data['mout'] = get_sys('user_level' . $data['level'] . '_mout');
-            $result=Db::name("user")->where("id",$id)->update($data);
+            $data['exp_time'] = strtotime($data['exp_time']);
+            $result = Db::name("user")->where("id",$id)->update($data);
             if ($result){
                 return array("status"=>1,"msg"=>"编辑成功");
             }else{
